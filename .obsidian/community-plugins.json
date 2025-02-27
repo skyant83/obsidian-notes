@@ -1,15 +1,15 @@
 [
   "table-editor-obsidian",
-  "obsidian-auto-split",
-  "automatic-list-styles",
-  "obsidian-completr",
-  "obsidian-git",
-  "jelly-snippets",
-  "list-style",
-  "quick-open",
-  "select-word",
   "sheets",
-  "obsidian-plugin-toc",
+  "obsidian-auto-split",
   "obsidian-text-format",
-  "unicode-search"
+  "jelly-snippets",
+  "obsidian-completr",
+  "unicode-search",
+  "select-word",
+  "lovely-mindmap",
+  "list-style",
+  "obsidian-plugin-toc",
+  "yet-another-obsidian-synchronizer",
+  "obsidian-git"
 ]

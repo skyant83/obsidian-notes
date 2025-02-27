@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "b7ad262a5cc81f77",
+    "id": "c736ab037e37f982",
     "type": "split",
     "children": [
       {
-        "id": "4f467604e961ff48",
+        "id": "05d1504067556acc",
         "type": "tabs",
         "children": [
           {
-            "id": "a9f95aae983cabb4",
+            "id": "1fec361607fc44eb",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -23,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "56ccc9170295c737",
+    "id": "ae2198291241c0cd",
     "type": "split",
     "children": [
       {
-        "id": "a3d8bb05b8534461",
+        "id": "4d65ba4bcbb0d5ec",
         "type": "tabs",
         "children": [
           {
-            "id": "25fe17454fa4a929",
+            "id": "aefb807b31f3ac9f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +44,7 @@
             }
           },
           {
-            "id": "9316073918da7a06",
+            "id": "b48d88d35ede50b0",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +61,7 @@
             }
           },
           {
-            "id": "cebbabc8f47ee7f6",
+            "id": "c560ea7f9633c3c4",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -74,51 +74,51 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 229.5
   },
   "right": {
-    "id": "6bf1a9ae4e43b735",
+    "id": "4e2badbd2f78fe0c",
     "type": "split",
     "children": [
       {
-        "id": "fe7aed09ff651ba4",
+        "id": "9a434fe09f2d5a27",
         "type": "tabs",
         "children": [
           {
-            "id": "c2067889dd97905e",
+            "id": "91de04bb88cf1f6a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "New Text Document.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks for New Text Document"
             }
           },
           {
-            "id": "c5811a6af0fa6afc",
+            "id": "6aa1b0f09df19e07",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "New Text Document.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links from New Text Document"
             }
           },
           {
-            "id": "e71105f9cdd06d33",
+            "id": "c202797b2a7333ed",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,19 +131,29 @@
             }
           },
           {
-            "id": "d8f89c9ccd166a8d",
+            "id": "fe988ef7591f825b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "Hope.pdf"
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline of Hope"
             }
           },
           {
-            "id": "16ce393c3e39d3a5",
+            "id": "c42d9548a6c13063",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "e980403b5a8869fd",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -153,15 +163,14 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 322.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "publish:Publish changes...": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -169,52 +178,82 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "yet-another-obsidian-synchronizer:YAOS": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "floating": {
-    "id": "4e304f24317f6516",
+    "id": "cc5756204e67c5e0",
     "type": "floating",
     "children": [
       {
-        "id": "a134fbcc7a9930b6",
+        "id": "c2ce751e41f28754",
         "type": "window",
         "children": [
           {
-            "id": "f191db0fd941eb5c",
+            "id": "94d341dc8f97b447",
             "type": "tabs",
             "children": [
               {
-                "id": "947a1fa1a62729b0",
+                "id": "25df11ac57f8e7c0",
                 "type": "leaf",
                 "state": {
                   "type": "webviewer",
                   "state": {
-                    "url": "https://publish.obsidian.md/git-doc/Getting+Started",
-                    "title": "Getting Started - Git Documentation - Obsidian Publish",
+                    "url": "https://publish.obsidian.md/git-doc/Tips-and-Tricks#Gitignore",
+                    "title": "Tips-and-Tricks - Git Documentation - Obsidian Publish",
                     "mode": "webview"
                   },
                   "icon": "globe-2",
-                  "title": "Getting Started - Git Documentation - Obsidian Publish"
+                  "title": "Tips-and-Tricks - Git Documentation - Obsidian Publish"
                 }
               }
-            ],
-            "stacked": true
+            ]
           }
         ],
         "direction": "vertical",
-        "x": 24,
-        "y": 12,
-        "width": 1028,
-        "height": 806,
+        "x": 512,
+        "y": 156,
+        "width": 1024,
+        "height": 800,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "947a1fa1a62729b0",
+  "active": "1fec361607fc44eb",
   "lastOpenFiles": [
+    "socsci/Poor Traffic Enforcement in the Philippines Sources.md",
     "Django in VS Code.md",
-    "Welcome.md"
+    "New Text Document.txt",
+    "New folder/obsidian/plugins/obsidian-completr/wordLists/large_en.txt",
+    "New folder/obsidian/plugins/yet-another-obsidian-synchronizer/main.js",
+    "New folder/obsidian/plugins/yet-another-obsidian-synchronizer/styles.css",
+    "New folder/obsidian/plugins/yet-another-obsidian-synchronizer/manifest.json",
+    "New folder/obsidian/plugins/table-editor-obsidian/styles.css",
+    "New folder/obsidian/plugins/table-editor-obsidian/manifest.json",
+    "New folder/obsidian/plugins/table-editor-obsidian/main.js",
+    "New folder/obsidian/plugins/unicode-search/styles.css",
+    "New folder/obsidian/plugins/table-editor-obsidian/data.json",
+    "New folder/Welcome.md",
+    "New folder/Django in VS Code.md",
+    "socsci/Poor Traffic Enforcement in the Philippines.md",
+    "From Opinion to Faith.md",
+    "socsci/Are there any successful traffic management models.md",
+    "socsci/How does the poor traffic enforcement influence th.md",
+    "^14.md",
+    "How does the poor traffic enforcement influence th.md",
+    "Are there any successful traffic management models.md",
+    "Poor Traffic Enforcement in the Philippines.md",
+    "Untitled.md",
+    "[.md",
+    "New Text Document.md",
+    "NotebookLM.md",
+    "Welcome.md",
+    "Transformations.png",
+    "create a link.md",
+    "Transformations.canvas",
+    "Hope.md",
+    "Transformations.canvs.md"
   ]
 }
