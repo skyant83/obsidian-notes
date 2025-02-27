@@ -1,4 +1,159 @@
 {
+  "obsidian-text-format:wrapper:underline": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "U"
+    }
+  ],
+  "obsidian-text-format:wrapper:b5b8366a-74d8-4672-8d7f-b8cecacc68ac": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "'"
+    }
+  ],
+  "obsidian-text-format:wrapper:6703e1bc-7ca7-4571-854d-9677557c61d8": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "'"
+    }
+  ],
+  "jelly-snippets:trigger-snippet": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
+    }
+  ],
+  "obsidian-text-format:wrapper:603f8d60-ba58-4970-9270-3aa4e8d1f142": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "'"
+    }
+  ],
+  "obsidian-text-format:wrapper:6340177c-85a4-4095-bffe-c1b90e5ba2f6": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "'"
+    }
+  ],
+  "editor:add-cursor-above": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "editor:add-cursor-below": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "editor:swap-line-down": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "editor:swap-line-up": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "obsidian-text-format:wrapper:99390213-eadb-4224-80df-382b2894f812": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "'"
+    }
+  ],
+  "obsidian-text-format:wrapper:352a554b-aabb-4594-9e5a-5de0fb36f95d": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "'"
+    }
+  ],
+  "unicode-search:search-unicode-chars": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
+  ],
+  "obsidian-completr:completr-blacklist-current-word": [],
+  "select-word:select-word": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "D"
+    }
+  ],
+  "editor:delete-paragraph": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Delete"
+    }
+  ],
+  "obsidian-text-format:uppercase": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "PageUp"
+    }
+  ],
+  "obsidian-text-format:lowercase": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "PageDown"
+    }
+  ],
+  "obsidian-text-format:title-case": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "PageUp"
+    }
+  ],
   "markdown:toggle-preview": [],
   "app:toggle-left-sidebar": [
     {
