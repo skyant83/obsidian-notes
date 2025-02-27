@@ -4,18 +4,44 @@
     "type": "split",
     "children": [
       {
-        "id": "4f467604e961ff48",
+        "id": "942c58ad15edf676",
         "type": "tabs",
         "children": [
           {
-            "id": "a9f95aae983cabb4",
+            "id": "22f7b71b2a4c0819",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Django in VS Code.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
-            }
+              "title": "Django in VS Code"
+            },
+            "group": "b104b4c83b2e6dee"
+          }
+        ]
+      },
+      {
+        "id": "0510055314328418",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "510f5dd271b7fee4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Django in VS Code.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Django in VS Code"
+            },
+            "group": "b104b4c83b2e6dee"
           }
         ]
       }
@@ -172,49 +198,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "4e304f24317f6516",
-    "type": "floating",
-    "children": [
-      {
-        "id": "a134fbcc7a9930b6",
-        "type": "window",
-        "children": [
-          {
-            "id": "f191db0fd941eb5c",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "947a1fa1a62729b0",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://publish.obsidian.md/git-doc/Getting+Started",
-                    "title": "Getting Started - Git Documentation - Obsidian Publish",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Getting Started - Git Documentation - Obsidian Publish"
-                }
-              }
-            ],
-            "stacked": true
-          }
-        ],
-        "direction": "vertical",
-        "x": 24,
-        "y": 12,
-        "width": 1028,
-        "height": 806,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "947a1fa1a62729b0",
+  "active": "22f7b71b2a4c0819",
   "lastOpenFiles": [
+    "images/publish_type.png",
+    "images/publish_branch.png",
     "Django in VS Code.md",
-    "Welcome.md"
+    "Welcome.md",
+    "DefaultFolder",
+    "images/empty_commit.png",
+    "images/source_control_commit.png",
+    "Pasted image 20250227140536.png",
+    "Pasted image 20250227140507.png",
+    "images",
+    "Untitled 1",
+    "Untitled.md",
+    "NN.md",
+    "images/rulers_settings.png",
+    "Untitled 1.md",
+    "images/flake8_settings.png",
+    "images/source-control.png"
   ]
 }

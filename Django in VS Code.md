@@ -31,13 +31,24 @@ One of the first things that will immediately improve your Django programming ex
 
 Certain helpful settings to improve some editor features. Just click the link and it will open the corresponding setting in VS Code. Brackets are important.
 
+$_{\textrm{Note: These are my own personal settings. You may change them to your liking}}$
+
 | Link to setting                                      | Value                                                      |
 | ---------------------------------------------------- | ---------------------------------------------------------- |
 | [Editor Rulers](vscode://settings/editor.rulers)     | [79]                                                       |
 | [Flake8 Severity](vscode://settings/flake8.severity) | F401              Information<br>E501              Warning |
+Refer to the following images for visual aid.
+
+**Editor Rulers:**
+![[rulers_settings.png]]
+
+**Flake8(PEP8) Style Warnings:**
+![[flake8_settings.png]]
 ##### Video:
 TBC
 
+
+---
 # Starting a Django Project
 
 ### Starting a Git and GitHub Project
@@ -47,6 +58,8 @@ On the left hand side bar of VS Code, you will find the `Source Control` tab. Al
 
 Click on `Initialize Repository` to create a local repository. From here you will be able to do anything Git related.
 
+![[source-control.png]]
+
 The current folder will be automatically tracked for changes. Create a text file as an example.
 U ⟶ `Upload`
 M ⟶ `Modified` (if the file has already been tracked/uploaded)
@@ -54,13 +67,20 @@ D ⟶ `Deleted`  (if you've deleted a tracked file)
 
 Once you are ready to make a commit, type your commit message at the top. `Shift+Enter` to create a new line. Three spaces to recrate a `Tab`. You can press the `✓ Commit` button to commit the changes. Just press yes.
 
+![[source_control_commit.png]]
+
 Alternatively you can leave it blank and a new editor window will open where you can write your commit message there. There will be a ✓ at the top right. Click that to commit.
 
+![[empty_commit.png]]
 
 ##### GitHub Repository
 Once you are ready to publish to GitHub, just click publish. You might have to Sign-In via GitHub. Just click yes and GitHub.com will open in your browser.
 
+![[publish_branch.png]]
+
 Once you've signed in you can choose between publishing to a private or public repository. You will only have to do this once.
+
+![[publish_type.png]]
 
 All future commits will will require you to click the `⟲ Sync Changes` which will push all commits to GitHub.
 
