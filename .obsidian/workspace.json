@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "b7ad262a5cc81f77",
+    "type": "split",
+    "children": [
+      {
+        "id": "4f467604e961ff48",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a9f95aae983cabb4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "56ccc9170295c737",
+    "type": "split",
+    "children": [
+      {
+        "id": "a3d8bb05b8534461",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "25fe17454fa4a929",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9316073918da7a06",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "cebbabc8f47ee7f6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6bf1a9ae4e43b735",
+    "type": "split",
+    "children": [
+      {
+        "id": "fe7aed09ff651ba4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c2067889dd97905e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "c5811a6af0fa6afc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "e71105f9cdd06d33",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d8f89c9ccd166a8d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          },
+          {
+            "id": "16ce393c3e39d3a5",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "publish:Publish changes...": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "floating": {
+    "id": "4e304f24317f6516",
+    "type": "floating",
+    "children": [
+      {
+        "id": "a134fbcc7a9930b6",
+        "type": "window",
+        "children": [
+          {
+            "id": "f191db0fd941eb5c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "947a1fa1a62729b0",
+                "type": "leaf",
+                "state": {
+                  "type": "webviewer",
+                  "state": {
+                    "url": "https://publish.obsidian.md/git-doc/Getting+Started",
+                    "title": "Getting Started - Git Documentation - Obsidian Publish",
+                    "mode": "webview"
+                  },
+                  "icon": "globe-2",
+                  "title": "Getting Started - Git Documentation - Obsidian Publish"
+                }
+              }
+            ],
+            "stacked": true
+          }
+        ],
+        "direction": "vertical",
+        "x": 24,
+        "y": 12,
+        "width": 1028,
+        "height": 806,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "947a1fa1a62729b0",
+  "lastOpenFiles": [
+    "Django in VS Code.md",
+    "Welcome.md"
+  ]
+}
