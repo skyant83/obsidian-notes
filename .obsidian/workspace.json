@@ -1,22 +1,62 @@
 {
   "main": {
-    "id": "c736ab037e37f982",
+    "id": "b7ad262a5cc81f77",
     "type": "split",
     "children": [
       {
         "id": "942c58ad15edf676",
-        "id": "05d1504067556acc",
         "type": "tabs",
         "children": [
           {
-            "id": "1fec361607fc44eb",
+            "id": "22f7b71b2a4c0819",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Django in VS Code.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Django in VS Code"
+            },
+            "group": "b104b4c83b2e6dee"
+          },
+          {
+            "id": "fec517328847f087",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/plugins/obsidian-completr/scanned_words.txt",
+                "bFile": ".obsidian/plugins/obsidian-completr/scanned_words.txt",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: scanned_words.txt"
             }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "0510055314328418",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "510f5dd271b7fee4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Django in VS Code.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Django in VS Code"
+            },
+            "group": "b104b4c83b2e6dee"
           }
         ]
       }
@@ -24,15 +64,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ae2198291241c0cd",
+    "id": "56ccc9170295c737",
     "type": "split",
     "children": [
       {
-        "id": "4d65ba4bcbb0d5ec",
+        "id": "a3d8bb05b8534461",
         "type": "tabs",
         "children": [
           {
-            "id": "aefb807b31f3ac9f",
+            "id": "25fe17454fa4a929",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -45,7 +85,7 @@
             }
           },
           {
-            "id": "b48d88d35ede50b0",
+            "id": "9316073918da7a06",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -62,7 +102,7 @@
             }
           },
           {
-            "id": "c560ea7f9633c3c4",
+            "id": "cebbabc8f47ee7f6",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -75,51 +115,51 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 300
   },
   "right": {
-    "id": "4e2badbd2f78fe0c",
+    "id": "6bf1a9ae4e43b735",
     "type": "split",
     "children": [
       {
-        "id": "9a434fe09f2d5a27",
+        "id": "fe7aed09ff651ba4",
         "type": "tabs",
         "children": [
           {
-            "id": "91de04bb88cf1f6a",
+            "id": "c2067889dd97905e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "New Text Document.md",
+                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for New Text Document"
+              "title": "Backlinks for Welcome"
             }
           },
           {
-            "id": "6aa1b0f09df19e07",
+            "id": "c5811a6af0fa6afc",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "New Text Document.md",
+                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from New Text Document"
+              "title": "Outgoing links from Welcome"
             }
           },
           {
-            "id": "c202797b2a7333ed",
+            "id": "e71105f9cdd06d33",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -132,29 +172,19 @@
             }
           },
           {
-            "id": "fe988ef7591f825b",
+            "id": "d8f89c9ccd166a8d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hope.pdf"
+                "file": "Welcome.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Hope"
+              "title": "Outline of Welcome"
             }
           },
           {
-            "id": "c42d9548a6c13063",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
-          },
-          {
-            "id": "e980403b5a8869fd",
+            "id": "16ce393c3e39d3a5",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -164,14 +194,15 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "publish:Publish changes...": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -179,82 +210,42 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "yet-another-obsidian-synchronizer:YAOS": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "cc5756204e67c5e0",
-    "type": "floating",
-    "children": [
-      {
-        "id": "c2ce751e41f28754",
-        "type": "window",
-        "children": [
-          {
-            "id": "94d341dc8f97b447",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "25df11ac57f8e7c0",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://publish.obsidian.md/git-doc/Tips-and-Tricks#Gitignore",
-                    "title": "Tips-and-Tricks - Git Documentation - Obsidian Publish",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Tips-and-Tricks - Git Documentation - Obsidian Publish"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 512,
-        "y": 156,
-        "width": 1024,
-        "height": 800,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "1fec361607fc44eb",
+  "active": "fec517328847f087",
   "lastOpenFiles": [
-    "socsci/Poor Traffic Enforcement in the Philippines Sources.md",
+    "conflict-files-obsidian-git.md",
     "Django in VS Code.md",
-    "New Text Document.txt",
-    "New folder/obsidian/plugins/obsidian-completr/wordLists/large_en.txt",
-    "New folder/obsidian/plugins/yet-another-obsidian-synchronizer/main.js",
-    "New folder/obsidian/plugins/yet-another-obsidian-synchronizer/styles.css",
-    "New folder/obsidian/plugins/yet-another-obsidian-synchronizer/manifest.json",
-    "New folder/obsidian/plugins/table-editor-obsidian/styles.css",
-    "New folder/obsidian/plugins/table-editor-obsidian/manifest.json",
-    "New folder/obsidian/plugins/table-editor-obsidian/main.js",
-    "New folder/obsidian/plugins/unicode-search/styles.css",
-    "New folder/obsidian/plugins/table-editor-obsidian/data.json",
-    "New folder/Welcome.md",
-    "New folder/Django in VS Code.md",
+    "socsci/Poor Traffic Enforcement in the Philippines Sources.md",
     "socsci/Poor Traffic Enforcement in the Philippines.md",
-    "From Opinion to Faith.md",
-    "socsci/Are there any successful traffic management models.md",
-    "socsci/How does the poor traffic enforcement influence th.md",
-    "^14.md",
-    "How does the poor traffic enforcement influence th.md",
-    "Are there any successful traffic management models.md",
-    "Poor Traffic Enforcement in the Philippines.md",
+    "socsci",
+    "Untitled.pdf",
     "Untitled.md",
-    "[.md",
-    "New Text Document.md",
-    "NotebookLM.md",
-    "Welcome.md",
-    "Transformations.png",
-    "create a link.md",
+    "images/Transformations.png",
     "Transformations.canvas",
+    "NotebookLM.pdf",
+    "NotebookLM.md",
+    "New Text Document.pdf",
+    "New Text Document.md",
+    "Hope.pdf",
     "Hope.md",
-    "Transformations.canvs.md"
+    "From Opinion to Faith.pdf",
+    "From Opinion to Faith.md",
+    "images/publish_type.png",
+    "images/publish_branch.png",
+    "Welcome.md",
+    "DefaultFolder",
+    "images/empty_commit.png",
+    "images/source_control_commit.png",
+    "Pasted image 20250227140536.png",
+    "Pasted image 20250227140507.png",
+    "images",
+    "Untitled 1",
+    "NN.md",
+    "images/rulers_settings.png",
+    "Untitled 1.md",
+    "images/flake8_settings.png",
+    "images/source-control.png"
   ]
 }
