@@ -1,14 +1,15 @@
 {
   "main": {
-    "id": "b7ad262a5cc81f77",
+    "id": "c736ab037e37f982",
     "type": "split",
     "children": [
       {
-        "id": "942c58ad15edf676",
+        "id": "05d1504067556acc",
         "type": "tabs",
+        "dimension": 49.44903581267218,
         "children": [
           {
-            "id": "22f7b71b2a4c0819",
+            "id": "1fec361607fc44eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,31 +21,17 @@
               "icon": "lucide-file",
               "title": "Django in VS Code"
             },
-            "group": "b104b4c83b2e6dee"
-          },
-          {
-            "id": "fec517328847f087",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/plugins/obsidian-completr/scanned_words.txt",
-                "bFile": ".obsidian/plugins/obsidian-completr/scanned_words.txt",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: scanned_words.txt"
-            }
+            "group": "248f5eebd3d529d4"
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "0510055314328418",
+        "id": "da7aca77d57c8cea",
         "type": "tabs",
+        "dimension": 50.55096418732782,
         "children": [
           {
-            "id": "510f5dd271b7fee4",
+            "id": "89a32bd4e88b5ce5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,7 +43,7 @@
               "icon": "lucide-file",
               "title": "Django in VS Code"
             },
-            "group": "b104b4c83b2e6dee"
+            "group": "248f5eebd3d529d4"
           }
         ]
       }
@@ -64,15 +51,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "56ccc9170295c737",
+    "id": "ae2198291241c0cd",
     "type": "split",
     "children": [
       {
-        "id": "a3d8bb05b8534461",
+        "id": "4d65ba4bcbb0d5ec",
         "type": "tabs",
         "children": [
           {
-            "id": "25fe17454fa4a929",
+            "id": "aefb807b31f3ac9f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -85,12 +72,12 @@
             }
           },
           {
-            "id": "9316073918da7a06",
+            "id": "b48d88d35ede50b0",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": ".png",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +89,7 @@
             }
           },
           {
-            "id": "cebbabc8f47ee7f6",
+            "id": "c560ea7f9633c3c4",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -115,51 +102,51 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 229.5
   },
   "right": {
-    "id": "6bf1a9ae4e43b735",
+    "id": "4e2badbd2f78fe0c",
     "type": "split",
     "children": [
       {
-        "id": "fe7aed09ff651ba4",
+        "id": "9a434fe09f2d5a27",
         "type": "tabs",
         "children": [
           {
-            "id": "c2067889dd97905e",
+            "id": "91de04bb88cf1f6a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "New Text Document.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks for New Text Document"
             }
           },
           {
-            "id": "c5811a6af0fa6afc",
+            "id": "6aa1b0f09df19e07",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "New Text Document.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links from New Text Document"
             }
           },
           {
-            "id": "e71105f9cdd06d33",
+            "id": "c202797b2a7333ed",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -172,19 +159,29 @@
             }
           },
           {
-            "id": "d8f89c9ccd166a8d",
+            "id": "fe988ef7591f825b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "Hope.pdf"
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline of Hope"
             }
           },
           {
-            "id": "16ce393c3e39d3a5",
+            "id": "c42d9548a6c13063",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "e980403b5a8869fd",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -194,15 +191,14 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 322.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "publish:Publish changes...": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -210,42 +206,53 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "yet-another-obsidian-synchronizer:YAOS": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fec517328847f087",
+  "active": "1fec361607fc44eb",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Django in VS Code.md",
-    "socsci/Poor Traffic Enforcement in the Philippines Sources.md",
-    "socsci/Poor Traffic Enforcement in the Philippines.md",
-    "socsci",
-    "Untitled.pdf",
-    "Untitled.md",
-    "images/Transformations.png",
-    "Transformations.canvas",
-    "NotebookLM.pdf",
-    "NotebookLM.md",
-    "New Text Document.pdf",
-    "New Text Document.md",
-    "Hope.pdf",
-    "Hope.md",
-    "From Opinion to Faith.pdf",
-    "From Opinion to Faith.md",
-    "images/publish_type.png",
-    "images/publish_branch.png",
-    "Welcome.md",
-    "DefaultFolder",
-    "images/empty_commit.png",
     "images/source_control_commit.png",
-    "Pasted image 20250227140536.png",
-    "Pasted image 20250227140507.png",
+    "images/source-control.png",
+    "Django in VS Code.md",
+    "images/select_interpreter.png",
+    "images/Pasted image 20250228011134.png",
+    "images/Pasted image 20250228011140.png",
+    "images/Pasted image 20250228011232.png",
+    "images/create_env.png",
+    "images/env_type.png",
+    "images/py_ver.png",
+    "images/bck_search.png",
+    "images/bck_search2.png",
     "images",
-    "Untitled 1",
-    "NN.md",
-    "images/rulers_settings.png",
-    "Untitled 1.md",
-    "images/flake8_settings.png",
-    "images/source-control.png"
+    "socsci/Poor Traffic Enforcement in the Philippines Sources.md",
+    "New Text Document.txt",
+    "New folder/obsidian/plugins/obsidian-completr/wordLists/large_en.txt",
+    "New folder/obsidian/plugins/yet-another-obsidian-synchronizer/main.js",
+    "New folder/obsidian/plugins/yet-another-obsidian-synchronizer/styles.css",
+    "New folder/obsidian/plugins/yet-another-obsidian-synchronizer/manifest.json",
+    "New folder/obsidian/plugins/table-editor-obsidian/styles.css",
+    "New folder/obsidian/plugins/table-editor-obsidian/manifest.json",
+    "New folder/obsidian/plugins/table-editor-obsidian/main.js",
+    "New folder/obsidian/plugins/unicode-search/styles.css",
+    "New folder/Welcome.md",
+    "New folder/Django in VS Code.md",
+    "socsci/Poor Traffic Enforcement in the Philippines.md",
+    "From Opinion to Faith.md",
+    "socsci/Are there any successful traffic management models.md",
+    "socsci/How does the poor traffic enforcement influence th.md",
+    "^14.md",
+    "How does the poor traffic enforcement influence th.md",
+    "Are there any successful traffic management models.md",
+    "Poor Traffic Enforcement in the Philippines.md",
+    "Untitled.md",
+    "[.md",
+    "New Text Document.md",
+    "NotebookLM.md",
+    "Welcome.md",
+    "create a link.md",
+    "Transformations.canvas",
+    "Hope.md",
+    "Transformations.canvs.md"
   ]
 }
