@@ -111,9 +111,11 @@ VS Code has automatic tools to help you create virtual environments in Python. H
 ![](images/create_env.png)
 <br>
 3) For the purposes of our class we will be using `venv`
+
 ![](images/env_type.png)
 <br>
 4) Select a Python version. Most cases, the most recent Python version that is installed in your system will be fine.
+
 ![](images/py_ver.png)
 <br>
 5) A `.venv` folder will be created. If any errors appear, just restart the process. If issues persist, contact me
