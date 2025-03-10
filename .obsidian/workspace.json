@@ -12,7 +12,7 @@
             "id": "1fec361607fc44eb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
                 "file": "Social Sustainability in Development.md",
                 "mode": "source",
@@ -34,7 +34,7 @@
             "id": "219c8b94d23f3c32",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
                 "file": "Social Sustainability in Development.md",
                 "mode": "preview",
@@ -77,6 +77,7 @@
             "state": {
               "type": "search",
               "state": {
+                "query": "",
                 "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
