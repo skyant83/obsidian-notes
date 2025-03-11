@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "71cc9925d316a6c9",
+        "id": "601b3c4bf910de8b",
         "type": "tabs",
         "children": [
           {
-            "id": "a60b0efb4a8602f5",
+            "id": "ab02cdf203a19fa3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5
+    "width": 229.5,
+    "collapsed": true
   },
   "right": {
     "id": "4e2badbd2f78fe0c",
@@ -179,11 +180,18 @@
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "yet-another-obsidian-synchronizer:YAOS": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "tldraw:Create new tldrawing": false
     }
   },
-  "active": "a60b0efb4a8602f5",
+  "active": "e980403b5a8869fd",
   "lastOpenFiles": [
+    "Tldraw 2025-03-11 9.30PM.md",
+    "New Document.rnote",
+    "Untitled.pdf",
+    "Untitled 1.md",
+    "Untitled.canvas",
+    "Untitled.md",
     "Social Sustainability in Development.pdf",
     "Social Sustainability in Development.md",
     "conflict-files-obsidian-git.md",
@@ -206,8 +214,6 @@
     "New folder/obsidian/plugins/yet-another-obsidian-synchronizer/styles.css",
     "New folder/obsidian/plugins/yet-another-obsidian-synchronizer/manifest.json",
     "New folder/obsidian/plugins/table-editor-obsidian/styles.css",
-    "New folder/obsidian/plugins/table-editor-obsidian/manifest.json",
-    "New folder/obsidian/plugins/table-editor-obsidian/main.js",
     "New folder/Welcome.md",
     "New folder/Django in VS Code.md",
     "socsci/Poor Traffic Enforcement in the Philippines.md",
@@ -218,7 +224,6 @@
     "How does the poor traffic enforcement influence th.md",
     "Are there any successful traffic management models.md",
     "Poor Traffic Enforcement in the Philippines.md",
-    "Untitled.md",
     "[.md",
     "New Text Document.md",
     "NotebookLM.md",
