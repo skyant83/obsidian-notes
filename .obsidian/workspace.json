@@ -1,21 +1,48 @@
 {
   "main": {
-    "id": "c736ab037e37f982",
+    "id": "b7ad262a5cc81f77",
     "type": "split",
     "children": [
       {
         "id": "601b3c4bf910de8b",
+        "id": "17ddc2771e92d621",
         "type": "tabs",
         "children": [
           {
-            "id": "ab02cdf203a19fa3",
+            "id": "b4857b646605575a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/hotkeys.json",
+                "bFile": ".obsidian/hotkeys.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: hotkeys.json"
+            },
+            "group": "bdaa291700139a12"
+          }
+        ]
+      },
+      {
+        "id": "06e6be5574231712",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37d56c68518c7b2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Django in VS Code.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
-            }
+              "title": "Django in VS Code"
+            },
+            "group": "bdaa291700139a12"
           }
         ]
       }
@@ -23,15 +50,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ae2198291241c0cd",
+    "id": "56ccc9170295c737",
     "type": "split",
     "children": [
       {
-        "id": "4d65ba4bcbb0d5ec",
+        "id": "a3d8bb05b8534461",
         "type": "tabs",
         "children": [
           {
-            "id": "aefb807b31f3ac9f",
+            "id": "25fe17454fa4a929",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +71,7 @@
             }
           },
           {
-            "id": "b48d88d35ede50b0",
+            "id": "9316073918da7a06",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +88,7 @@
             }
           },
           {
-            "id": "c560ea7f9633c3c4",
+            "id": "cebbabc8f47ee7f6",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -74,52 +101,51 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "4e2badbd2f78fe0c",
+    "id": "6bf1a9ae4e43b735",
     "type": "split",
     "children": [
       {
-        "id": "9a434fe09f2d5a27",
+        "id": "fe7aed09ff651ba4",
         "type": "tabs",
         "children": [
           {
-            "id": "91de04bb88cf1f6a",
+            "id": "c2067889dd97905e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "New Text Document.md",
+                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for New Text Document"
+              "title": "Backlinks for Welcome"
             }
           },
           {
-            "id": "6aa1b0f09df19e07",
+            "id": "c5811a6af0fa6afc",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "New Text Document.md",
+                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from New Text Document"
+              "title": "Outgoing links from Welcome"
             }
           },
           {
-            "id": "c202797b2a7333ed",
+            "id": "e71105f9cdd06d33",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -132,29 +158,22 @@
             }
           },
           {
-            "id": "fe988ef7591f825b",
+            "id": "d8f89c9ccd166a8d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hope.pdf"
+                "file": "Django in VS Code.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Hope"
+              "title": "Outline of Django in VS Code"
             }
           },
           {
-            "id": "c42d9548a6c13063",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
-            }
-          },
-          {
-            "id": "e980403b5a8869fd",
+            "id": "44964edd6d13df03",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -164,14 +183,15 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "yet-another-obsidian-synchronizer:YAOS": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -179,35 +199,29 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "yet-another-obsidian-synchronizer:YAOS": false,
       "obsidian-git:Open Git source control": false,
       "tldraw:Create new tldrawing": false
     }
   },
+  "active": "b4857b646605575a",
   "active": "e980403b5a8869fd",
   "lastOpenFiles": [
-    "huion.cfg",
-    "Tldraw 2025-03-11 9.30PM.md",
-    "New Document.rnote",
-    "Untitled.pdf",
+    "Django in VS Code.md",
     "Untitled 1.md",
-    "Untitled.canvas",
-    "Untitled.md",
+    "Untitled 2.md",
+    "GDEV",
     "Social Sustainability in Development.pdf",
     "Social Sustainability in Development.md",
-    "conflict-files-obsidian-git.md",
-    "images/Transformations.png",
-    "Django in VS Code.md",
-    "images/source_control_commit.png",
-    "images/source-control.png",
     "images/select_interpreter.png",
-    "images/Pasted image 20250228011134.png",
-    "images/Pasted image 20250228011140.png",
-    "images/Pasted image 20250228011232.png",
-    "images/create_env.png",
-    "images/env_type.png",
+    "images/run_and_debug.png",
     "images/py_ver.png",
-    "images",
+    "images/launch_fix.png",
+    "images/git_options.png",
+    "images/env_type.png",
+    "images/create_env.png",
+    "images/bck_search2.png",
+    "images/bck_search.png",
+    "conflict-files-obsidian-git.md",
     "socsci/Poor Traffic Enforcement in the Philippines Sources.md",
     "New Text Document.txt",
     "New folder/obsidian/plugins/obsidian-completr/wordLists/large_en.txt",
@@ -218,20 +232,22 @@
     "New folder/Welcome.md",
     "New folder/Django in VS Code.md",
     "socsci/Poor Traffic Enforcement in the Philippines.md",
-    "From Opinion to Faith.md",
-    "socsci/Are there any successful traffic management models.md",
-    "socsci/How does the poor traffic enforcement influence th.md",
-    "^14.md",
-    "How does the poor traffic enforcement influence th.md",
-    "Are there any successful traffic management models.md",
-    "Poor Traffic Enforcement in the Philippines.md",
-    "[.md",
-    "New Text Document.md",
-    "NotebookLM.md",
-    "Welcome.md",
-    "create a link.md",
+    "socsci",
+    "Untitled.pdf",
+    "Untitled.md",
+    "images/Transformations.png",
     "Transformations.canvas",
+    "NotebookLM.pdf",
+    "NotebookLM.md",
+    "New Text Document.pdf",
+    "New Text Document.md",
+    "Hope.pdf",
     "Hope.md",
-    "Transformations.canvs.md"
+    "From Opinion to Faith.pdf",
+    "From Opinion to Faith.md",
+    "Welcome.md",
+    "DefaultFolder",
+    "images",
+    "NN.md"
   ]
 }
