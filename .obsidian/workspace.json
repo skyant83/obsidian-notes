@@ -4,45 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "601b3c4bf910de8b",
-        "id": "17ddc2771e92d621",
+        "id": "9dfa24207f42b4bf",
         "type": "tabs",
         "children": [
           {
-            "id": "b4857b646605575a",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/hotkeys.json",
-                "bFile": ".obsidian/hotkeys.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: hotkeys.json"
-            },
-            "group": "bdaa291700139a12"
-          }
-        ]
-      },
-      {
-        "id": "06e6be5574231712",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "37d56c68518c7b2b",
+            "id": "cfbb8913797f6668",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Django in VS Code.md",
-                "mode": "source",
+                "file": "Untitled 1.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Django in VS Code"
-            },
-            "group": "bdaa291700139a12"
+              "title": "Untitled 1"
+            }
           }
         ]
       }
@@ -101,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6bf1a9ae4e43b735",
@@ -199,43 +177,37 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-git:Open Git source control": false,
-      "tldraw:Create new tldrawing": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b4857b646605575a",
-  "active": "e980403b5a8869fd",
+  "active": "44964edd6d13df03",
   "lastOpenFiles": [
-    "Django in VS Code.md",
+    "Untitled 1.pdf",
+    "images/source-control.png",
     "Untitled 1.md",
+    "images/Pasted image 20250312133915.png",
+    "images/Pasted image 20250312133624.png",
+    "images/Pasted image 20250312133554.png",
+    "images/Pasted image 20250312131526.png",
+    "images/Pasted image 20250312131443.png",
+    "images/Pasted image 20250312131356.png",
+    "images/Pasted image 20250312131321.png",
+    "images/Pasted image 20250312131216.png",
+    "images/math_10_3_1.png",
+    "huion.cfg",
+    "Tldraw 2025-03-11 9.30PM.md",
+    "New Document.rnote",
+    "Django in VS Code.md",
     "Untitled 2.md",
     "GDEV",
     "Social Sustainability in Development.pdf",
     "Social Sustainability in Development.md",
-    "images/select_interpreter.png",
-    "images/run_and_debug.png",
-    "images/py_ver.png",
-    "images/launch_fix.png",
-    "images/git_options.png",
-    "images/env_type.png",
-    "images/create_env.png",
-    "images/bck_search2.png",
-    "images/bck_search.png",
     "conflict-files-obsidian-git.md",
     "socsci/Poor Traffic Enforcement in the Philippines Sources.md",
-    "New Text Document.txt",
-    "New folder/obsidian/plugins/obsidian-completr/wordLists/large_en.txt",
-    "New folder/obsidian/plugins/yet-another-obsidian-synchronizer/main.js",
-    "New folder/obsidian/plugins/yet-another-obsidian-synchronizer/styles.css",
-    "New folder/obsidian/plugins/yet-another-obsidian-synchronizer/manifest.json",
-    "New folder/obsidian/plugins/table-editor-obsidian/styles.css",
-    "New folder/Welcome.md",
-    "New folder/Django in VS Code.md",
     "socsci/Poor Traffic Enforcement in the Philippines.md",
     "socsci",
     "Untitled.pdf",
     "Untitled.md",
-    "images/Transformations.png",
     "Transformations.canvas",
     "NotebookLM.pdf",
     "NotebookLM.md",
@@ -246,8 +218,6 @@
     "From Opinion to Faith.pdf",
     "From Opinion to Faith.md",
     "Welcome.md",
-    "DefaultFolder",
-    "images",
     "NN.md"
   ]
 }

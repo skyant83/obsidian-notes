@@ -9,5 +9,6 @@
   },
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "trashOption": "system"
 }
