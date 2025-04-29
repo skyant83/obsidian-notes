@@ -1,7 +1,6 @@
 [
   "table-editor-obsidian",
   "sheets",
-  "obsidian-auto-split",
   "obsidian-text-format",
   "jelly-snippets",
   "obsidian-completr",
@@ -14,5 +13,7 @@
   "obsidian-git",
   "quick-open",
   "auto-file-organizer",
-  "tldraw"
+  "tldraw",
+  "obsidian-auto-split",
+  "obsidian-image-toolkit"
 ]
