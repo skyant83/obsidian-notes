@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math30.24 1.md",
+                "file": "math50 q5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "math30.24 1"
+              "title": "math50 q5"
             },
             "group": "a3c3a580d076edcb"
           }
@@ -34,12 +34,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math30.24 1.md",
-                "mode": "preview",
+                "file": "math50 q5.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "math30.24 1"
+              "title": "math50 q5"
             },
             "group": "a3c3a580d076edcb"
           }
@@ -193,7 +193,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 322.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,29 +210,30 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "aefb807b31f3ac9f",
+  "active": "e83006af2aef356b",
   "lastOpenFiles": [
-    "math30.24.md",
+    "images/Pasted image 20250430004137.png",
+    "images/Pasted image 20250430004112.png",
+    "images/Pasted image 20250430003953.png",
+    "images/Pasted image 20250430003932.png",
+    "images/Pasted image 20250430003849.png",
+    "Vector.md",
+    "Untitled 4.md",
+    "math50 q5.md",
+    "Untitled 1.md",
+    "Untitled 3.md",
     "math30.24 1.md",
+    "math30.24.md",
     "images/Pasted image 20250424160726.png",
     "images/Pasted image 20250424160659.png",
     "images/Pasted image 20250424160634.png",
     "images/Pasted image 20250424160611.png",
     "images/Pasted image 20250424160517.png",
     "images/Pasted image 20250424153846.png",
-    "images/Pasted image 20250403122105.png",
-    "Vector.md",
-    "images/Pasted image 20250423002003.png",
-    "images/Pasted image 20250423001551.png",
-    "images/Pasted image 20250423001334.png",
     "Partial Derivatives.md",
-    "Untitled 4.md",
-    "Untitled 3.md",
-    "Untitled 2.md",
     "Social Sustainability in Development.md",
     "Hope 1.pdf",
     "Untitled 1.pdf",
-    "Untitled 1.md",
     "huion.cfg",
     "Tldraw 2025-03-11 9.30PM.md",
     "New Document.rnote",
