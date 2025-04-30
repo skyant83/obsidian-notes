@@ -4,22 +4,44 @@
     "type": "split",
     "children": [
       {
-        "id": "9dfa24207f42b4bf",
+        "id": "3ed7a574fbfc277b",
         "type": "tabs",
         "children": [
           {
-            "id": "cfbb8913797f6668",
+            "id": "83f26486e0e1813b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled 1.md",
+                "file": "math50 q5.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "math50 q5"
+            },
+            "group": "fb026ccf0b957323"
+          }
+        ]
+      },
+      {
+        "id": "98df14ef623ccaf7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "171a3d625f8923f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "math50 q5.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
-            }
+              "title": "math50 q5"
+            },
+            "group": "fb026ccf0b957323"
           }
         ]
       }
@@ -78,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6bf1a9ae4e43b735",
@@ -165,10 +186,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "tldraw:Create new tldrawing": false,
       "yet-another-obsidian-synchronizer:YAOS": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -180,20 +203,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "44964edd6d13df03",
+  "active": "83f26486e0e1813b",
   "lastOpenFiles": [
-    "Untitled 1.pdf",
-    "images/source-control.png",
-    "Untitled 1.md",
-    "images/Pasted image 20250312133915.png",
-    "images/Pasted image 20250312133624.png",
-    "images/Pasted image 20250312133554.png",
-    "images/Pasted image 20250312131526.png",
-    "images/Pasted image 20250312131443.png",
-    "images/Pasted image 20250312131356.png",
-    "images/Pasted image 20250312131321.png",
-    "images/Pasted image 20250312131216.png",
-    "images/math_10_3_1.png",
+    "math50 q5.pdf",
+    "images/Pasted image 20250430133344.png",
+    "images/Pasted image 20250403115225.png",
+    "math50 q5.md",
+    "images/Pasted image 20250430133202.png",
+    "images/Pasted image 20250430133129.png",
+    "images/Pasted image 20250430125833.png",
+    "math.md",
+    "Pasted image 20250402113706.png",
+    "images/Pasted image 20250402113637.png",
+    "Pasted image 20250402113625.png",
+    "Pasted image 20250402113601.png",
+    "images/Pasted image 20250402113528.png",
+    "math.pdf",
+    "Untitled.pdf",
+    "Untitled.md",
     "huion.cfg",
     "Tldraw 2025-03-11 9.30PM.md",
     "New Document.rnote",
@@ -206,8 +233,6 @@
     "socsci/Poor Traffic Enforcement in the Philippines Sources.md",
     "socsci/Poor Traffic Enforcement in the Philippines.md",
     "socsci",
-    "Untitled.pdf",
-    "Untitled.md",
     "Transformations.canvas",
     "NotebookLM.pdf",
     "NotebookLM.md",
@@ -215,7 +240,6 @@
     "New Text Document.md",
     "Hope.pdf",
     "Hope.md",
-    "From Opinion to Faith.pdf",
     "From Opinion to Faith.md",
     "Welcome.md",
     "NN.md"
