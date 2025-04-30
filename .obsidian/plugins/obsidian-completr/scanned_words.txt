@@ -250,6 +250,7 @@ Perceived
 Policies
 Participation
 Partial
+PIln
 Grounded
 Giving
 God
@@ -349,6 +350,7 @@ Goals
 GDP
 General
 GP
+GzWgQ
 in
 included
 intersubjectivity
@@ -551,6 +553,9 @@ inclusion
 impact
 immediate
 implementation
+iow
+iE
+iIx
 human
 hope
 has
@@ -675,6 +680,9 @@ households
 handle
 hn
 hdv
+hGX
+hDaA
+hp
 experience
 emotion
 end
@@ -861,6 +869,8 @@ established
 ev
 egK
 eJ
+eun
+eUu
 which
 we
 what
@@ -976,6 +986,7 @@ withstand
 wages
 wC
 wuu
+wuF
 subjectivity
 something
 superficiality
@@ -1222,6 +1233,9 @@ shape
 seen
 standards
 sAx
+sQpm
+st
+sywX
 and
 as
 allows
@@ -1596,6 +1610,7 @@ return
 recognized
 resilient
 respect
+rr
 the
 try
 this
@@ -1763,6 +1778,7 @@ transparency
 tensions
 tSW
 tc
+tiI
 phenomenon
 purification
 possibility
@@ -1953,6 +1969,8 @@ program
 professional
 processes
 pCg
+pys
+pC
 dignity
 delete
 duty
@@ -2512,6 +2530,8 @@ compromise
 challenging
 cv
 cQB
+cpc
+cz
 Jean
 JKK
 Jm
@@ -2600,6 +2620,9 @@ JKP
 Jh
 JQy
 JUm
+Jwkb
+JY
+JjM
 Luc
 Lived
 Life
@@ -2701,6 +2724,9 @@ Low
 Limit
 Lbr
 LSg
+LyRhJ
+LJ
+LAmr
 Marion
 Marcel
 Make
@@ -2822,6 +2848,8 @@ Measures
 Makers
 MaMau
 MOs
+MX
+MO
 Strategy
 Someone
 Sense
@@ -3138,6 +3166,8 @@ Clairaut
 Chain
 Cv
 Cvg
+Cfy
+Cmp
 This
 Theology
 The
@@ -3266,6 +3296,7 @@ Transformative
 Think
 Transparency
 TWwUu
+TGv
 your
 you
 yet
@@ -3463,6 +3494,8 @@ norms
 negotiate
 notation
 nsN
+nnQc
+nb
 vault
 very
 vulnerability
@@ -3572,6 +3605,8 @@ vIed
 vr
 vulnerabilities
 vaccination
+vVu
+vDd
 When
 Whatever
 With
@@ -4202,6 +4237,8 @@ fD
 fNoUaX
 fDQR
 fHg
+ffC
+fq
 Do
 Deepens
 Dissolves
@@ -4299,6 +4336,8 @@ DIp
 DbTe
 DZQ
 DN
+Dbt
+DoP
 know
 known
 kind
@@ -4386,6 +4425,8 @@ knit
 kOv
 kVC
 kz
+kU
+kkVQ
 If
 It
 Inability
@@ -4664,6 +4705,7 @@ band
 builds
 breakdown
 bm
+bX
 Faith
 Fiat
 Fundamental
@@ -4784,6 +4826,11 @@ Framework
 Four
 Following
 FyY
+Fgj
+FC
+Fuc
+Fcr
+Fwk
 Opinion
 One
 Openness
@@ -5040,6 +5087,9 @@ lessening
 lasting
 legitimacy
 lJO
+lBB
+luT
+lF
 An
 Association
 Actually
@@ -5165,6 +5215,7 @@ Arena
 Agreed
 Aligning
 AUvx
+AJH
 just
 jX
 jZNvNfzFrR
@@ -5238,6 +5289,12 @@ jG
 job
 jTU
 jU
+jSy
+jY
+jRl
+jgd
+jm
+jt
 Being
 Belief
 But
@@ -5334,6 +5391,8 @@ Bonding
 Bridging
 Benefits
 BBx
+Bm
+BJP
 Not
 Ng
 NN
@@ -5431,6 +5490,8 @@ Nkx
 Notations
 NB
 Nag
+NRI
+Nt
 Unconditional
 Ultimately
 Unable
@@ -5523,6 +5584,8 @@ UZu
 UoJ
 Upon
 UC
+UVZ
+UcM
 How
 However
 Hope
@@ -5615,6 +5678,7 @@ HeIu
 HPOG
 Historical
 Hp
+HzY
 Vigilance
 Vok
 VC
@@ -5705,6 +5769,8 @@ Values
 VX
 Vo
 Vh
+VsYt
+VUU
 Yes
 Yq
 YC
@@ -5786,6 +5852,7 @@ Yy
 YYj
 Yd
 YcB
+Yr
 Qe
 QUS
 QU
@@ -5854,6 +5921,7 @@ QV
 QP
 QCH
 QnQ
+QO
 Zb
 Zd
 Ze
@@ -5925,6 +5993,7 @@ Zu
 Zaj
 ZfO
 ZO
+ZIT
 qH
 qcccc
 qT
@@ -5998,6 +6067,8 @@ qIH
 qfxp
 qf
 qR
+qraA
+qZx
 Ku
 KKK
 KLZr
@@ -6077,6 +6148,7 @@ KF
 KCq
 KUq
 KMX
+KRv
 Xm
 XZQv
 XF
@@ -6230,6 +6302,7 @@ xuXv
 xZ
 xDA
 xQiDU
+xZr
 zs
 zt
 ze
@@ -6309,6 +6382,7 @@ zHü
 zU
 zen
 ztl
+zeam
 RU
 RRRV
 RSR
@@ -6413,4 +6487,5 @@ Risk
 Reduction
 Refers
 RS
+RC
 Öa

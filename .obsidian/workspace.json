@@ -11,14 +11,12 @@
             "id": "e83006af2aef356b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "math50 q5.md",
-                "mode": "source",
-                "source": false
+                "file": "New Text Document.pdf"
               },
-              "icon": "lucide-file",
-              "title": "math50 q5"
+              "icon": "lucide-file-text",
+              "title": "New Text Document"
             },
             "group": "a3c3a580d076edcb"
           }
@@ -32,14 +30,12 @@
             "id": "62d1a2d9f8bf3f52",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "math50 q5.md",
-                "mode": "source",
-                "source": false
+                "file": "New Text Document.pdf"
               },
-              "icon": "lucide-file",
-              "title": "math50 q5"
+              "icon": "lucide-file-text",
+              "title": "New Text Document"
             },
             "group": "a3c3a580d076edcb"
           }
@@ -212,11 +208,12 @@
   },
   "active": "e83006af2aef356b",
   "lastOpenFiles": [
+    "images.rar",
+    "math50 q5.md",
     "images/Pasted image 20250430040013.png",
     "images/Pasted image 20250430035959.png",
     "images/Pasted image 20250430033749.png",
     "Vector.md",
-    "math50 q5.md",
     "images/Pasted image 20250430020734.png",
     "images/Pasted image 20250430020715.png",
     "images/Pasted image 20250430004137.png",
@@ -229,7 +226,6 @@
     "Untitled 3.md",
     "math30.24 1.md",
     "math30.24.md",
-    "images/Pasted image 20250424160726.png",
     "Partial Derivatives.md",
     "Social Sustainability in Development.md",
     "Hope 1.pdf",
