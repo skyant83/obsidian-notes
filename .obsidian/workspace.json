@@ -38,8 +38,22 @@
               "title": "New Text Document"
             },
             "group": "a3c3a580d076edcb"
+          },
+          {
+            "id": "f3dc34fd82be67ac",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "New Text Document.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "New Text Document"
+            },
+            "group": "a3c3a580d076edcb"
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -236,14 +250,8 @@
     "Untitled.pdf",
     "Untitled.canvas",
     "Untitled.md",
-    "Social Sustainability in Development.pdf",
-    "conflict-files-obsidian-git.md",
     "Django in VS Code.md",
-    "images",
     "socsci/Poor Traffic Enforcement in the Philippines Sources.md",
-    "New Text Document.txt",
-    "New folder/obsidian/plugins/obsidian-completr/wordLists/large_en.txt",
-    "New folder/obsidian/plugins/yet-another-obsidian-synchronizer/main.js",
     "New folder/Welcome.md",
     "New folder/Django in VS Code.md",
     "socsci/Poor Traffic Enforcement in the Philippines.md",
@@ -254,7 +262,6 @@
     "How does the poor traffic enforcement influence th.md",
     "Are there any successful traffic management models.md",
     "Poor Traffic Enforcement in the Philippines.md",
-    "[.md",
     "Transformations.canvas"
   ]
 }
