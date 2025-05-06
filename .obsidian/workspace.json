@@ -4,25 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "d82f399859ad7312",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e83006af2aef356b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "New Text Document.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "New Text Document"
-            },
-            "group": "a3c3a580d076edcb"
-          }
-        ]
-      },
-      {
         "id": "fca1e611e54d58cc",
         "type": "tabs",
         "children": [
@@ -30,30 +11,39 @@
             "id": "62d1a2d9f8bf3f52",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "New Text Document.pdf"
+                "file": "math50 lt4.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "New Text Document"
+              "icon": "lucide-file",
+              "title": "math50 lt4"
             },
-            "group": "a3c3a580d076edcb"
-          },
+            "group": "0212bfe5894fed69"
+          }
+        ]
+      },
+      {
+        "id": "58f2cc6113730d09",
+        "type": "tabs",
+        "children": [
           {
-            "id": "f3dc34fd82be67ac",
+            "id": "2a8d70d261bdc39e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "New Text Document.pdf"
+                "file": "math50 lt4.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "New Text Document"
+              "icon": "lucide-file",
+              "title": "math50 lt4"
             },
-            "group": "a3c3a580d076edcb"
+            "group": "0212bfe5894fed69"
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -222,21 +212,28 @@
   },
   "active": "62d1a2d9f8bf3f52",
   "lastOpenFiles": [
-    "images.rar",
+    "images/Pasted image 20250506232156.png",
+    "images/Pasted image 20250506231302.png",
+    "images/Pasted image 20250506230606.png",
     "math50 q5.md",
-    "images/Pasted image 20250430040013.png",
-    "images/Pasted image 20250430035959.png",
-    "images/Pasted image 20250430033749.png",
+    "math50 lt4.md",
+    "New Text Document.pdf",
+    "conflict-files-obsidian-git.md",
+    "math50 q5.pdf",
+    "math.pdf",
+    "math.md",
+    "images/Pasted image 20250430133344.png",
+    "images/Pasted image 20250430133202.png",
+    "images/Pasted image 20250430133129.png",
+    "images/Pasted image 20250430125833.png",
+    "images/Pasted image 20250402113706.png",
+    "images/Pasted image 20250402113637.png",
+    "images/Pasted image 20250402113625.png",
+    "images/Pasted image 20250402113601.png",
+    "New Document.2rnote.rnote",
+    "images.rar",
     "Vector.md",
-    "images/Pasted image 20250430020734.png",
-    "images/Pasted image 20250430020715.png",
-    "images/Pasted image 20250430004137.png",
-    "images/Pasted image 20250430004112.png",
-    "images/Pasted image 20250430003953.png",
-    "images/Pasted image 20250430003932.png",
-    "images/Pasted image 20250430003849.png",
     "Untitled 4.md",
-    "Untitled 1.md",
     "Untitled 3.md",
     "math30.24 1.md",
     "math30.24.md",
