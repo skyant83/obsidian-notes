@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fca1e611e54d58cc",
+        "id": "ff3e1ea6f096b40e",
         "type": "tabs",
         "children": [
           {
-            "id": "62d1a2d9f8bf3f52",
+            "id": "d05519fe03f32bff",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,16 +20,16 @@
               "icon": "lucide-file",
               "title": "math50 lt4"
             },
-            "group": "0212bfe5894fed69"
+            "group": "3235366c870521bc"
           }
         ]
       },
       {
-        "id": "58f2cc6113730d09",
+        "id": "b2549799f907f853",
         "type": "tabs",
         "children": [
           {
-            "id": "2a8d70d261bdc39e",
+            "id": "07e8f2bd74558459",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -41,7 +41,7 @@
               "icon": "lucide-file",
               "title": "math50 lt4"
             },
-            "group": "0212bfe5894fed69"
+            "group": "3235366c870521bc"
           }
         ]
       }
@@ -193,8 +193,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5,
-    "collapsed": true
+    "width": 322.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,32 +209,32 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "62d1a2d9f8bf3f52",
+  "active": "d05519fe03f32bff",
   "lastOpenFiles": [
+    "math50 lt4.pdf",
+    "math50 lt4.md",
+    "Vector.md",
+    "images/Pasted image 20250422231157 1.png",
+    "images/Pasted image 20250507122741.png",
+    "images/Pasted image 20250507121044.png",
+    "math50 q5.md",
+    "images/Pasted image 20250507122837.png",
+    "images/Pasted image 20250507122507.png",
+    "images/Pasted image 20250507122022.png",
+    "images/Pasted image 20250507121101.png",
+    "math50 q5.pdf",
+    "math30.24 1.md",
     "images/Pasted image 20250506232156.png",
     "images/Pasted image 20250506231302.png",
     "images/Pasted image 20250506230606.png",
-    "math50 q5.md",
-    "math50 lt4.md",
     "New Text Document.pdf",
     "conflict-files-obsidian-git.md",
-    "math50 q5.pdf",
     "math.pdf",
     "math.md",
-    "images/Pasted image 20250430133344.png",
-    "images/Pasted image 20250430133202.png",
-    "images/Pasted image 20250430133129.png",
-    "images/Pasted image 20250430125833.png",
-    "images/Pasted image 20250402113706.png",
-    "images/Pasted image 20250402113637.png",
-    "images/Pasted image 20250402113625.png",
-    "images/Pasted image 20250402113601.png",
     "New Document.2rnote.rnote",
     "images.rar",
-    "Vector.md",
     "Untitled 4.md",
     "Untitled 3.md",
-    "math30.24 1.md",
     "math30.24.md",
     "Partial Derivatives.md",
     "Social Sustainability in Development.md",
