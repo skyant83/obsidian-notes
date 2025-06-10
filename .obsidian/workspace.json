@@ -162,13 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Django in VS Code.md",
+                "file": "math 60.2/Week 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Django in VS Code"
+              "title": "Outline of Week 1"
             }
           },
           {
@@ -202,7 +202,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0ff6281a88bf3101",
+  "active": "44964edd6d13df03",
   "lastOpenFiles": [
     "math 30.24/Partial Derivatives.md",
     "math 30.24/mathVec30.24.pdf",
