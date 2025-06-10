@@ -4,44 +4,44 @@
     "type": "split",
     "children": [
       {
-        "id": "8923098c2dc123ea",
+        "id": "8641a10877207326",
         "type": "tabs",
         "children": [
           {
-            "id": "0ff6281a88bf3101",
+            "id": "5a60a13d8178cc58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math 60.2/Week 1.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 1"
+              "title": "Untitled"
             },
-            "group": "0644c0fbb3f9029b"
+            "group": "fc7724f68e396773"
           }
         ]
       },
       {
-        "id": "d0cdf4778a8f571a",
+        "id": "ba61c1a2628a11a6",
         "type": "tabs",
         "children": [
           {
-            "id": "efb67633fb21a4a2",
+            "id": "7fde764b56ce6f6b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math 60.2/Week 1.md",
-                "mode": "source",
+                "file": "Untitled.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 1"
+              "title": "Untitled"
             },
-            "group": "0644c0fbb3f9029b"
+            "group": "fc7724f68e396773"
           }
         ]
       }
@@ -162,13 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "math 60.2/Week 1.md",
+                "file": "Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Week 1"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -202,18 +202,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "44964edd6d13df03",
+  "active": "7fde764b56ce6f6b",
   "lastOpenFiles": [
+    "Untitled.md",
+    "math 60.2/Week 1.md",
     "math 30.24/Partial Derivatives.md",
     "math 30.24/mathVec30.24.pdf",
     "math 30.24/mathVec30.24.md",
     "math 30.24/math30.24 1.md",
-    "math 60.2/Week 1.md",
     "math 30.24/math30.24.md",
     "math 50/math.md",
     "math 50/math50dif.pdf",
     "math 50/math50dif.md",
-    "Untitled.md",
     "conflict-files-obsidian-git.md",
     "math 60.2",
     "theo13/From Opinion to Faith.md",
