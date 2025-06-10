@@ -11,16 +11,84 @@
             "id": "44da215d1f7bff53",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.10"
+                "file": "math 30.24/math30.24 1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
+              "icon": "lucide-file",
+              "title": "math30.24 1"
+            }
+          },
+          {
+            "id": "fd54ecbd6a5fff88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "theo13/New Text Document.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "New Text Document"
+            }
+          },
+          {
+            "id": "db2394a92be9fc1d",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "images/Pasted image 20250422231157 1.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250422231157 1"
+            }
+          },
+          {
+            "id": "e09473905996aaf9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "math 50/math.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "math"
+            }
+          },
+          {
+            "id": "02d9ceec626180c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "math 50/math50 lt4.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "math50 lt4"
+            }
+          },
+          {
+            "id": "1661a6614dbfdb89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "theo13/From Opinion to Faith.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "From Opinion to Faith"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -179,48 +247,52 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "44da215d1f7bff53",
+  "active": "1661a6614dbfdb89",
   "lastOpenFiles": [
-    "math50 q5.md",
-    "math30.24.md",
-    "math30.24 1.md",
-    "Vector.md",
-    "Pasted image 20250422231157.png",
-    "Partial Derivatives.md",
-    "math50 q5.pdf",
-    "images/Pasted image 20250430133344.png",
-    "images/Pasted image 20250403115225.png",
-    "images/Pasted image 20250430133202.png",
-    "images/Pasted image 20250430133129.png",
-    "images/Pasted image 20250430125833.png",
-    "math.md",
-    "Pasted image 20250402113706.png",
-    "images/Pasted image 20250402113637.png",
-    "Pasted image 20250402113625.png",
-    "Pasted image 20250402113601.png",
-    "math.pdf",
-    "Untitled.pdf",
-    "Untitled.md",
-    "huion.cfg",
-    "Tldraw 2025-03-11 9.30PM.md",
-    "New Document.rnote",
-    "Django in VS Code.md",
-    "Untitled 2.md",
-    "GDEV",
-    "Social Sustainability in Development.pdf",
-    "Social Sustainability in Development.md",
     "conflict-files-obsidian-git.md",
-    "socsci/Poor Traffic Enforcement in the Philippines Sources.md",
-    "socsci/Poor Traffic Enforcement in the Philippines.md",
-    "socsci",
-    "Transformations.canvas",
-    "NotebookLM.pdf",
-    "NotebookLM.md",
-    "New Text Document.pdf",
-    "New Text Document.md",
-    "Hope.md",
-    "From Opinion to Faith.md",
+    "theo13/From Opinion to Faith.md",
+    "Django in VS Code.md",
+    "theo13/Transformations.canvas",
     "Welcome.md",
+    "socsci/Social Sustainability in Development.md",
+    "socsci/Poor Traffic Enforcement in the Philippines.md",
+    "theo13/NotebookLM.md",
+    "theo13/New Text Document.md",
+    "theo13/New Text Document.pdf",
+    "theo13",
+    "theo13/From Opinion to Faith.pdf",
+    "math 30.24/Untitled.md",
+    "math 30.24/Partial Derivatives.md",
+    "math 30.24/mathVec30.24.md",
+    "math 50/math50 lt4.md",
+    "math 30.24/math30.24.md",
+    "math 50/math.md",
+    "math 50/math.pdf",
+    "DefaultFolder/conflict-files-obsidian-git.md",
+    "math 30.24/Vector.md",
+    "math 30.24/Untitled.pdf",
+    "DefaultFolder",
+    "images/Pasted image 20250422231157 1.png",
+    "theo13/NotebookLM.pdf",
+    "theo13/Hope.pdf",
+    "Untitled 1.md",
+    "math 50/Tldraw 2025-03-11 9.30PM.md",
+    "socsci/Social Sustainability in Development.pdf",
+    "math 30.24/mathVec30.24.pdf",
+    "math 30.24/math30.24 1.md",
+    "images/Pasted image 20250519154611.png",
+    "images/Pasted image 20250519154600.png",
+    "images/Pasted image 20250519154536.png",
+    "images/Pasted image 20250519154529.png",
+    "images/Pasted image 20250519154507.png",
+    "Pasted image 20250519154444.png",
+    "images/Pasted image 20250519154435.png",
+    "images/Pasted image 20250519154409.png",
+    "images/Pasted image 20250519154146.png",
+    "math 50/math50 q5.md",
+    "Untitled 2.md",
+    "socsci/Poor Traffic Enforcement in the Philippines Sources.md",
+    "theo13/Hope.md",
     "NN.md"
   ]
 }
