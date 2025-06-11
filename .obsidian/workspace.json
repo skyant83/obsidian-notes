@@ -180,13 +180,34 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "c3bff490eb1855ed",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "60bff86dfde4c8e7",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {},
+              "icon": "feather-mouse-pointer",
+              "title": "Saved Queries"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,12 +223,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5a60a13d8178cc58",
+  "active": "60bff86dfde4c8e7",
   "lastOpenFiles": [
+    "math 60.2/Week 1.md",
+    "Week 1.pdf",
     "ene 13.05i/WEEK.md",
     "ene 13.05i",
     "Untitled 1.md",
-    "math 60.2/Week 1.md",
     "math 30.24/Partial Derivatives.md",
     "math 30.24/mathVec30.24.pdf",
     "math 30.24/mathVec30.24.md",
@@ -245,7 +267,6 @@
     "math 50/math.pdf",
     "DefaultFolder/conflict-files-obsidian-git.md",
     "math 30.24/Vector.md",
-    "math 30.24/Untitled.pdf",
     "math 50/Tldraw 2025-03-11 9.30PM.md",
     "math 50/math50 q5.md",
     "Untitled 2.md",

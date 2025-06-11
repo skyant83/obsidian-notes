@@ -110,14 +110,6 @@
     }
   ],
   "obsidian-completr:completr-blacklist-current-word": [],
-  "select-word:select-word": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "D"
-    }
-  ],
   "editor:delete-paragraph": [
     {
       "modifiers": [
@@ -280,6 +272,14 @@
         "Shift"
       ],
       "key": "G"
+    }
+  ],
+  "advanced-cursors:add-next-match-to-selections": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "D"
     }
   ]
 }
