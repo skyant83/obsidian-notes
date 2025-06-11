@@ -52,14 +52,34 @@ $$
 (Rules of Calculating Probability)
 - Union
 $$
-	\begin{gather}
-		P(A \cup B) = \frac{|A \cup B|}{|S|} 
-		\\ \textrm{ or } \\
-		P(A \cup B) =  P(A) + P(B) - P(A \cap B) 
-	\end{gather}
+	\begin{align}
+		P(A \cup B) &= \frac{|A \cup B|}{|S|} \quad \textrm{ or } \\
+		P(A \cup B) &=  P(A) + P(B) - P(A \cap B) \\
+		&_{\textrm{(The Addition Rule)}}
+	\end{align}
 $$
 - Intersection
 $$
-	P(A \cap B) = \frac{|A \cap B|}{|S|} 
+	\begin{align}
+		P(A \cap B) &= \frac{|A \cap B|}{|S|} \quad \textrm{ or } \\
+		P(A \cap B) &=  P(A|B)\cdot P(B) \\ 
+		&= P(B|A)\cdot P(A) \\
+		&_{\textrm{(The Multiplication Rule)}}
+	\end{align}
 $$
 - Complement
+$$
+	\begin{align}
+		P(A^C) = 1 - P(A) \\
+		_{\textrm{(The Complement Rule)}}
+	\end{align}
+$$
+
+(Conditional Probability)
+$$
+	P(A|B) = \frac{P(A \cap B)}{P(B)}
+$$
+
+(Independent Events)
+- When $P(A|B) = P(A)$ or $P(B|A) = P(B)$, we say that events $A$ and $B$ are independent.
+- May also be independent if $P(A \cap B) = P(A)\cdot P(B)$

@@ -100,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6bf1a9ae4e43b735",
@@ -223,7 +224,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "60bff86dfde4c8e7",
+  "active": "5a60a13d8178cc58",
   "lastOpenFiles": [
     "math 60.2/Week 1.md",
     "Week 1.pdf",
