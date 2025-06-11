@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math 60.2/Week 1.md",
+                "file": "ENVI/Week 1.md",
                 "mode": "source",
                 "source": false
               },
@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math 60.2/Week 1.md",
+                "file": "ENVI/Week 1.md",
                 "mode": "preview",
                 "source": false
               },
@@ -100,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6bf1a9ae4e43b735",
@@ -233,11 +234,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f09a87a8df032024",
+  "active": "5a60a13d8178cc58",
   "lastOpenFiles": [
+    "ene 13.05i/WEEK 1.md",
+    "ENVI/Week 1.md",
+    "ENVI",
     "math 60.2/Week 1.md",
     "Week 1.pdf",
-    "ene 13.05i/WEEK.md",
     "ene 13.05i",
     "Untitled 1.md",
     "math 30.24/Partial Derivatives.md",
@@ -274,7 +277,6 @@
     "theo13/From Opinion to Faith.pdf",
     "math 30.24/Untitled.md",
     "math 50/math50 lt4.md",
-    "math 50/math.pdf",
     "DefaultFolder/conflict-files-obsidian-git.md",
     "math 30.24/Vector.md",
     "math 50/Tldraw 2025-03-11 9.30PM.md",
