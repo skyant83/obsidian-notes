@@ -206,6 +206,16 @@
             "id": "f09a87a8df032024",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "e9fab678696e1ddf",
+            "type": "leaf",
+            "state": {
               "type": "Saved Queries View",
               "state": {},
               "icon": "feather-mouse-pointer",
@@ -213,7 +223,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -234,7 +244,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5a60a13d8178cc58",
+  "active": "e9fab678696e1ddf",
   "lastOpenFiles": [
     "ene 13.05i/WEEK 1.md",
     "ENVI/Week 1.md",
