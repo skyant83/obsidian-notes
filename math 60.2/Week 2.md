@@ -38,3 +38,16 @@ $$
 $$
 	C(n,r) = \frac{n!}{r!(n-r)!}
 $$
+
+### Probability
+(Uniform Probability Model)
+$$
+	\begin{align}
+		P(A) &= \frac{\textrm{no. of simple events in  }A}{\textrm{no. of simple events in } S} \\
+			 &= \frac{|A|}{|S|}
+	\end{align}
+$$
+- Note that:
+	1. $0 \le P(A) \le 1$
+	2. $P(\varnothing) = 0$
+	3. $P(S) = 1$
