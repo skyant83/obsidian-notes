@@ -201,6 +201,7 @@ Every
 Evolving
 EMOs
 Employ
+Events
 Phenomenology
 Phenomenological
 Philosophy
@@ -409,6 +410,8 @@ Psychosocial
 Phenomenon
 Principles
 Pro
+Permutation
+Probability
 Grounded
 Giving
 God
@@ -874,6 +877,7 @@ intrinsically
 increasing
 injustices
 interdependencies
+independent
 human
 hope
 has
@@ -1390,6 +1394,11 @@ economies
 extraction
 emerge
 employed
+event
+experiment
+exclusive
+equally
+except
 which
 we
 what
@@ -1912,6 +1921,7 @@ street
 success
 strengthened
 successes
+sample
 and
 as
 allows
@@ -2187,6 +2197,10 @@ assassinations
 assessments
 achieve
 activism
+arrangement
+applies
+arrangements
+attribute
 relation
 re
 ready
@@ -2472,6 +2486,8 @@ rate
 relatively
 reaching
 repression
+ratio
+red
 the
 try
 this
@@ -2999,6 +3015,7 @@ preventive
 prosecution
 persistence
 perilous
+probability
 dignity
 delete
 duty
@@ -3265,6 +3282,7 @@ displacement
 dissent
 disproportionately
 despite
+distinct
 of
 or
 own
@@ -3461,6 +3479,9 @@ overlapping
 organized
 overwhelmingly
 objections
+objects
+observed
+occurs
 concept
 certainty
 core
@@ -3811,6 +3832,7 @@ creation
 cancellation
 conflictive
 comply
+circular
 Jean
 JKK
 Jm
@@ -4381,6 +4403,7 @@ MGS
 Movements
 Mining
 Mobilization
+Model
 Strategy
 Someone
 Sense
@@ -4838,6 +4861,14 @@ Complex
 Combining
 Court
 Connections
+Circular
+Combination
+Collection
+Consider
+Complements
+Calculating
+Complement
+Conditional
 This
 Theology
 The
@@ -5963,6 +5994,8 @@ mining
 mobilization
 mobilizing
 motivates
+mutually
+measuring
 us
 useless
 unshakable
@@ -6597,6 +6630,7 @@ farmers
 feeds
 far
 futures
+finite
 Do
 Deepens
 Dissolves
@@ -6791,6 +6825,7 @@ Despite
 Disproportionately
 Defenders
 Diverse
+Distinct
 know
 known
 kind
@@ -7168,6 +7203,7 @@ Interdependent
 Interconnectedness
 Influential
 Indigenous
+Independent
 believer
 become
 belief
@@ -7790,6 +7826,7 @@ OfJ
 Our
 Overwhelmingly
 Outcomes
+Objects
 lived
 link
 limit
@@ -8910,6 +8947,8 @@ Uvi
 UJg
 Unjust
 Use
+Uniform
+Union
 How
 However
 Hope
@@ -10677,6 +10716,7 @@ RQu
 RWB
 Rix
 Resource
+Repeating
 Öa
 ÄB
 ÄE
