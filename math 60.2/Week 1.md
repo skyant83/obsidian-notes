@@ -84,3 +84,4 @@ $$
 - When $P(A|B) = P(A)$ or $P(B|A) = P(B)$, we say that events $A$ and $B$ are independent.
 - May also be independent if $P(A \cap B) = P(A)\cdot P(B)$
 
+## Day 
