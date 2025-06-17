@@ -190,9 +190,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "f9af1b5a6ae3d29c",
+            "type": "leaf",
+            "state": {
+              "type": "Saved Queries View",
+              "state": {},
+              "icon": "feather-mouse-pointer",
+              "title": "Saved Queries"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -213,7 +223,7 @@
       "tldraw:Create new tldrawing": false
     }
   },
-  "active": "e2117166d175029a",
+  "active": "f9af1b5a6ae3d29c",
   "lastOpenFiles": [
     "ENVI/Week 1.pdf",
     "images/Pasted image 20250430020734.png",
