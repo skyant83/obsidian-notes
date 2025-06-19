@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"8a2bc711f6b1d5e1","type":"text","text":"- Crop rotation\n- Forestry schools\n- laws on forest management\n- cataloguing","x":120,"y":-80,"width":250,"height":160,"color":"4"},
+		{"id":"3c4d01ee90bbe28f","type":"text","text":"Concern for environmental sustainability","x":-140,"y":-45,"width":205,"height":90,"color":"4"},
+		{"id":"36881a5bcbf5ab4c","type":"text","text":"Collection\nAntiquarianism\n$\\cdots$","x":420,"y":-55,"width":250,"height":111,"color":"3"}
+	],
+	"edges":[
+		{"id":"96fcaab241887f24","fromNode":"3c4d01ee90bbe28f","fromSide":"right","toNode":"8a2bc711f6b1d5e1","toSide":"left"},
+		{"id":"3607019ecd5e42fd","fromNode":"8a2bc711f6b1d5e1","fromSide":"right","toNode":"36881a5bcbf5ab4c","toSide":"left"}
+	]
+}
