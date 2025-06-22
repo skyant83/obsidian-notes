@@ -336,6 +336,10 @@ $$
 	- $P(X>a) = 1-F_X(a)$
 	- $\displaystyle\lim_{x\to\infty} F_X(x)=1$
 	- $\displaystyle\lim_{x\to-\infty} F_X(x)=0$
+##### ~={green}Excel=~
+```js
+=NORM.DIST(X⌃,N,p,TRUE) - NORM.DIST(X⌄,N,P,TRUE)
+```
 
 #### ~={blue}Cumulative Distribution Function $F_X(x)$=~
 $$
@@ -349,6 +353,10 @@ $$
 		\sigma^2 &= \text{Var}(X) = E((X-\mu)^2) = \int^{\infty}_{-\infty}(x-\mu)^2\cdot f_X(x)\;dx
 	\end{align}
 $$
+##### ~={green}Excel=~
+```js
+=NORM.INV(AREA,σ,μ)
+```
 
 ### Normal Distribution
 ```graph
