@@ -24,5 +24,6 @@
   "truth-table-gen",
   "numerals",
   "inline-math",
-  "break-page"
+  "break-page",
+  "graphs"
 ]

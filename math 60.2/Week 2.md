@@ -253,7 +253,7 @@ $$
 - Rule Satisfaction
 	- $P(X=a)=0$
 	- ${} P(X\ge a) = P(X>a) {}$
-	- ${} P(X\le a) = P(X<a) {}$
+	- $P(X\le a) = P(X<a)$
 	- $P(X>a) = 1-F_X(a)$
 	- $\displaystyle\lim_{x\to\infty} F_X(x)=1$
 	- $\displaystyle\lim_{x\to-\infty} F_X(x)=0$
@@ -261,6 +261,65 @@ $$
 #### ~={blue}Cumulative Distribution Function $F_X(x)$=~
 $$
 	\begin{align}
+		F_X(x) &= P(X\le x) = \int^{x}_{-\infty}f_X(t)\;dt \\\\
 		
+		\mu &= E(X) = \int^{\infty}_{-\infty}x\cdot f_X(x)\;dx \\
+		
+		\sigma &= \sqrt{E((X-\mu)^2)} = \sqrt{\int^{\infty}_{-\infty}(x-\mu)^2\cdot f_X(x)\;dx} \\
+		
+		\sigma^2 &= \text{Var}(X) = E((X-\mu)^2) = \int^{\infty}_{-\infty}(x-\mu)^2\cdot f_X(x)\;dx
 	\end{align}
+$$
+
+### Normal Distribution
+```graph
+bounds: [-1,.29,1,-.2]
+axis: false
+defaultAxes: {
+	x: {
+		ticks: {
+			visible: false
+		}
+	},
+	y: {
+		ticks: {
+			visible: false
+		}
+	}
+}
+elements: [
+	{type: slider, def: [[0.12,-0.075],[0.7,-0.075],[1.4,2,50]], att: {name: "σ"}},
+	{type: functiongraph, def: ["f:(1 / (2 * Math.sqrt(2 * Math.PI))) * Math.exp(-(Math.pow(x - 0, 2)*50) / (2 * Math.pow(2, 2)))"]},
+	{type: segment, def: [[-0.96,0.25],[-0.96,0]], att: {firstArrow: {type: 5}, strokeColor: '#ffff'}},
+	{type: segment, def: [[-0.96,0],[1,0]], att: {lastArrow: {type: 5}, strokeColor: '#ffff'}},
+	{type: segment, def: [[0,"f:(1 / (2 * Math.sqrt(2 * Math.PI))) * Math.exp(-(Math.pow(0, 2)*50) / (2 * Math.pow(2, 2)))"],[0,0]]},
+	{type: point, def: [0,0], att: {name: "μ"}},
+	{type: segment, def: [["f:0-(e0/10)","f:(1 / (2 * Math.sqrt(2 * Math.PI))) * Math.exp(-(Math.pow(-(e0/10), 2)*50) / (2 * Math.pow(2, 2)))"],["f:0-(e0/10)",0]]},
+	{type: point, def: ["f:-(e0/10)",0], att: {name: "μ-σ"}},
+	{type: segment, def: [["f:(e0/10)","f:(1 / (2 * Math.sqrt(2 * Math.PI))) * Math.exp(-(Math.pow(((e0/10)), 2)*50) / (2 * Math.pow(2, 2)))"],["f:(e0/10)",0]]},
+	{type: point, def: ["f:(e0/10)",0], att: {name: "μ+σ"}},
+]
+```
+$$
+	f_X(x) = \dfrac{1}{\sigma\sqrt{2\pi}}\cdot e^{\dfrac{-(x - \mu)^2}{2\sigma^2}}, \: -\infty < x < \infty
+$$
+- Large values of $\sigma$ reduce the height of the curve and increase the spread
+- $X \sim N\;(\mu,\sigma)$
+
+#### ~={blue}Gaussian Curve=~
+$$
+	\begin{gather}
+		X\sim N\;(0,1)\\\\
+		or\\\\
+		f_X(x)=\frac{1}{\sqrt{2\pi}}e^{\dfrac{-x^2}{2}},\quad -\infty<x<\infty
+	\end{gather}
+$$
+- ${} P(\mu - \sigma \le X \le \mu + \sigma) \approx 0.6827 {}$
+- $P(\mu - 2\sigma \le X \le \mu + 2\sigma) \approx 0.9545$
+- $P(\mu - 3\sigma \le X \le \mu + 3\sigma) \approx 0.9973$
+
+#### Standardization
+- Expressing a normal random variable $X\sim N\; (\mu, \sigma)$ as the number of standard deviations it lies to the left or the right of its mean
+$$
+	Z = \frac{X-\mu}{\sigma}\sim N\; (0,1)
 $$
