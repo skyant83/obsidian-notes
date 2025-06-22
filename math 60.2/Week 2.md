@@ -26,12 +26,15 @@
 		- [~={blue}Probability Distribution Function=~](#~=%7Bblue%7DProbability%20Distribution%20Function=~)
 		- [Mean, Variance, Standard Deviation](#Mean,%20Variance,%20Standard%20Deviation)
 		- [~={green}Excel=~](#~=%7Bgreen%7DExcel=~)
+		- [Examples](#Examples)
 	- [Probability Distribution Continuous Variable](#Probability%20Distribution%20Continuous%20Variable)
 		- [~={blue}Probability Density Function $f_X(x)$=~](#~=%7Bblue%7DProbability%20Density%20Function%20$f_X(x)$=~)
+			- [~={green}Excel=~](#~=%7Bgreen%7DExcel=~)
 		- [~={blue}Cumulative Distribution Function $F_X(x)$=~](#~=%7Bblue%7DCumulative%20Distribution%20Function%20$F_X(x)$=~)
+			- [~={green}Excel=~](#~=%7Bgreen%7DExcel=~)
 	- [Normal Distribution](#Normal%20Distribution)
-		- [~={blue}Gaussian Curve=~](#~=%7Bblue%7DGaussian%20Curve=~)
 		- [Standardization](#Standardization)
+
 <div class="page-break" style="page-break-before: always;"></div>
 
 ## Day 2
@@ -68,6 +71,8 @@ $$
 $$
 	\frac{9!}{3!2!4!} = 1260
 $$
+<div class="page-break" style="page-break-before: always;"></div>
+
 #### Circular Permutation
 - Permutation in a circle with one fixed object is $(n-1)!$	
 
@@ -95,6 +100,8 @@ $$
 			   &= 26\,978\,328
 	\end{align}
 $$
+<div class="page-break" style="page-break-before: always;"></div>
+
 ### Probability
 #### Uniform Probability Model
 $$
@@ -125,8 +132,6 @@ $$
 	P(A\cup B) = P(A) + P(B) - P(A\cap B)
 $$
 - Compliment --> $P(A^C) = 1 - P(A)$
-<div class="page-break" style="page-break-before: always;"></div>
-
 ### Conditional Probability
 #### Dependent Events
 - An event occurring affects the probability of the following event
@@ -141,6 +146,7 @@ $$
 				   &= P(B|A)\cdot P(A)
 	\end{align}
 $$
+<div class="page-break" style="page-break-before: always;"></div>
 
 #### Independent Events
 - Probability of one does not affect the other
@@ -194,7 +200,8 @@ $$
 | :-: | :------------------: |
 |  0  | ${} \dfrac{1}{4} {}$ |
 |  1  | ${} \dfrac{1}{2} {}$ |
-|  2  | ${} \dfrac{1}{4} {}$ |
+|  2  | $\dfrac{1}{4}$ |
+<div class="page-break" style="page-break-before: always;"></div>
 
 #### Cumulative Distribution $F_X(k)$
 - formula, table or graph that gives all the possible values $k$ and $F_X(k) = P(X\le k)$, the probability that $X$ is at most $k$
@@ -266,6 +273,7 @@ $$
 		\sigma &= \sqrt{np(1-p)} 
 	\end{align}
 $$
+<div class="page-break" style="page-break-before: always;"></div>
 
 #### ~={green}Excel=~
 - Probability Dist Func
@@ -287,9 +295,11 @@ $$
 	\frac{\dbinom{2}{k}\dbinom{4}{3-k}}{\dbinom{6}{3}}
 $$
 
-|   $k$    |       0        |       1        |          2           |
-| :------: | :------------: | :------------: | :------------------: |
+|   $k$    |       0        |       1        |       2        |
+| :------: | :------------: | :------------: | :------------: |
 | $p_X(k)$ | $\dfrac{1}{5}$ | $\dfrac{3}{5}$ | $\dfrac{1}{5}$ |
+<div class="page-break" style="page-break-before: always;"></div>
+
 > 4 laptops, probability distribution
 >
 
