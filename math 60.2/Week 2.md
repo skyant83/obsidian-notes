@@ -1,4 +1,33 @@
 ```insta-toc
+---
+title:
+  name: Table of Contents
+  level: 1
+  center: false
+exclude: ""
+style:
+  listType: dash
+omit: []
+levels:
+  min: 1
+  max: 6
+---
+
+# Table of Contents
+
+- Day 2
+    - Counting Techniques
+    - Permutation
+    - Combination
+    - Probability
+    - Conditional Probability
+- Day 3
+    - Probability Distribution
+        - ~={blue}Probability Distribution **Function** (pdf)=~
+        - ~={blue}Probability Distribution Table=~
+    - Cumulative Distribution
+    - Mean or Expected Value
+    - Standard Deviation and Variance
 ```
 ## Day 2
 ### Counting Techniques
@@ -149,6 +178,25 @@ $$
 |  2  | $p_X(0)+p_X(1)+p_X(2)=\frac{1}{4}+\frac{1}{2}+\frac{1}{4}=1$ |
 
 ### Mean or Expected Value
+- The average value of $X$ in the population
 $$
 	\mu = E(X) = \sum_{\textrm{all }k} k\cdot p_X(k)
+$$
+
+### Standard Deviation and Variance
+(Standard Deviation)
+- Measures the spread or variability of the random variable
+$$
+	\begin{align}
+		\sigma &= \sqrt{E((X-\mu)^2)} \\
+			   &= \sqrt{\sum_{\textrm{all }k}(k-\mu)^2\cdot p_X(k)}
+	\end{align}
+$$
+
+(Variance)
+$$
+	\begin{align}
+		\sigma^2 &= E((X-\mu)^2) \\
+			     &= \sum_{\textrm{all }k}(k-\mu)^2\cdot p_X(k)
+	\end{align}
 $$
