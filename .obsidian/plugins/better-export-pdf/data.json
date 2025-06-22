@@ -8,9 +8,9 @@
   "printBackground": false,
   "generateTaggedPDF": false,
   "displayMetadata": false,
-  "debug": true,
+  "debug": false,
   "isTimestamp": false,
-  "enabledCss": false,
+  "enabledCss": true,
   "concurrency": "5",
   "prevConfig": {
     "pageSize": "A4",

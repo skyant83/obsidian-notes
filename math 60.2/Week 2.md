@@ -6,13 +6,15 @@
 	- [Conditional Probability](#Conditional%20Probability)
 - [Day 3](#Day%203)
 	- [Probability Distribution](#Probability%20Distribution)
-		- [~={blue}Probability Distribution **Function** (pdf)=~](#~=%7Bblue%7DProbability%20Distribution%20**Function**%20(pdf)=~)
+		- [~={blue}Probability Distribution Function (pdf) $p_X(k)$=~](#~=%7Bblue%7DProbability%20Distribution%20Function%20(pdf)%20$p_X(k)$=~)
 		- [~={blue}Probability Distribution Table=~](#~=%7Bblue%7DProbability%20Distribution%20Table=~)
-		- [Cumulative Distribution](#Cumulative%20Distribution)
+		- [Cumulative Distribution $F_X(k)$](#Cumulative%20Distribution%20$%7B%7D%20F_X(k)%20%7B%7D$)
 		- [Mean or Expected Value](#Mean%20or%20Expected%20Value)
 		- [Standard Deviation and Variance](#Standard%20Deviation%20and%20Variance)
 	- [Binomial Distribution](#Binomial%20Distribution)
 		- [~={blue}Probability Distribution Function=~](#~=%7Bblue%7DProbability%20Distribution%20Function=~)
+		- [Mean, Variance, Standard Deviation](#Mean,%20Variance,%20Standard%20Deviation)
+		- [~={green}Excel=~](#~=%7Bgreen%7DExcel=~)
 
 ## Day 2
 ### Counting Techniques
@@ -129,14 +131,14 @@ $$
 (Example)
 	Toss two fair coins and let $X$ be the number of heads observed. Find the probability distribution for $X$.
 
-| **Simple Event** | **Coin 1** | **Coin 2** | Probability of Simple Event<br>$P(E_i)$ | **Number of Heads Observed**<br>$X$ |
-|:----------------:|:----------:|:----------:|:---------------------------------------:|:-----------------------------------:|
-|      $E_1$       |     H      |     H      |              $\frac{1}{4}$              |                  2                  |
-|      $E_2$       |     H      |     T      |              $\frac{1}{4}$              |                  1                  |
-|      $E_3$       |     T      |     H      |              $\frac{1}{4}$              |                  1                  |
-|      $E_4$       |     T      |     T      |              $\frac{1}{4}$              |                  0                  |
+| **Simple Event** | **Coin 1** | **Coin 2** | Probability of Simple Event<br><br>$P(E_i)$ | **Number of Heads Observed**<br><br>$X$ |
+| :--------------: | :--------: | :--------: | :-----------------------------------------: | :-------------------------------------: |
+|      $E_1$       |     H      |     H      |                $\frac{1}{4}$                |                    2                    |
+|      $E_2$       |     H      |     T      |                $\frac{1}{4}$                |                    1                    |
+|      $E_3$       |     T      |     H      |                $\frac{1}{4}$                |                    1                    |
+|      $E_4$       |     T      |     T      |                $\frac{1}{4}$                |                    0                    |
 
-#### ~={blue}Probability Distribution **Function** (pdf) $p_X(k)$=~
+#### ~={blue}Probability Distribution Function (pdf) $p_X(k)$=~
 $$
 	p_X(k)=
 	\begin{cases}
@@ -153,7 +155,7 @@ $$
 |  1  | $\frac{1}{2}$ |
 |  2  | $\frac{1}{4}$ |
 
-#### Cumulative Distribution ${} F_X(k) {}$
+#### Cumulative Distribution $F_X(k)$
 - formula, table or graph that gives all the possible values $k$ and $F_X(k) = P(X\le k)$, the probability that $X$ is at most $k$
 
 | $k$ | $F_X(k)$                                                     |

@@ -1,6 +1,9 @@
 {
   "theme": "obsidian",
-  "enabledCssSnippets": [],
+  "enabledCssSnippets": [
+    "bolder",
+    "test"
+  ],
   "nativeMenus": false,
   "textFontFamily": "JetBrains Mono",
   "monospaceFontFamily": "JetBrains Mono"
