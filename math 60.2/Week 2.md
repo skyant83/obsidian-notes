@@ -125,6 +125,7 @@ $$
 	P(A\cup B) = P(A) + P(B) - P(A\cap B)
 $$
 - Compliment --> $P(A^C) = 1 - P(A)$
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### Conditional Probability
 #### Dependent Events
@@ -166,42 +167,43 @@ $$
 - A formula, table, or graph that gives all the possible values $k$ of the discrete random variable $X$, and the probability $p_X(k)=P(X=k)$ associated with each value
 - $p_X(k) \ge 0$
 - $\displaystyle\sum_{\textrm{all }k} p_x(k)=1$
+<div class="page-break" style="page-break-before: always;"></div>
 
 #### Example
 	Toss two fair coins and let $X$ be the number of heads observed. Find the probability distribution for $X$.
 
 | **Simple Event** | **Coin 1** | **Coin 2** | Probability of Simple Event<br><br>$P(E_i)$ | **Number of Heads Observed**<br><br>$X$ |
 | :--------------: | :--------: | :--------: | :-----------------------------------------: | :-------------------------------------: |
-|      $E_1$       |     H      |     H      |                $\frac{1}{4}$                |                    2                    |
-|      $E_2$       |     H      |     T      |                $\frac{1}{4}$                |                    1                    |
-|      $E_3$       |     T      |     H      |                $\frac{1}{4}$                |                    1                    |
-|      $E_4$       |     T      |     T      |                $\frac{1}{4}$                |                    0                    |
+|      $E_1$       |     H      |     H      |            ${} \dfrac{1}{4} {}$             |                    2                    |
+|      $E_2$       |     H      |     T      |            ${} \dfrac{1}{4} {}$             |                    1                    |
+|      $E_3$       |     T      |     H      |            ${} \dfrac{1}{4} {}$             |                    1                    |
+|      $E_4$       |     T      |     T      |            ${} \dfrac{1}{4} {}$             |                    0                    |
 
 #### ~={blue}Probability Distribution Function (pdf) $p_X(k)$=~
 $$
 	p_X(k)=
 	\begin{cases}
-		\frac{1}{4} \textrm{ if } k=0 \\
-		\frac{1}{2} \textrm{ if } k=1 \\
-		\frac{1}{4} \textrm{ if } k=2
+		\dfrac{1}{4} \textrm{ if } k=0 \\
+		\dfrac{1}{2} \textrm{ if } k=1 \\
+		\dfrac{1}{4} \textrm{ if } k=2
 	\end{cases}
 $$
 #### ~={blue}Probability Distribution Table=~
 
-| $k$ |   $p_X(k)$    |
-| :-: | :-----------: |
-|  0  | $\frac{1}{4}$ |
-|  1  | $\frac{1}{2}$ |
-|  2  | $\frac{1}{4}$ |
+| $k$ |       $p_X(k)$       |
+| :-: | :------------------: |
+|  0  | ${} \dfrac{1}{4} {}$ |
+|  1  | ${} \dfrac{1}{2} {}$ |
+|  2  | ${} \dfrac{1}{4} {}$ |
 
 #### Cumulative Distribution $F_X(k)$
 - formula, table or graph that gives all the possible values $k$ and $F_X(k) = P(X\le k)$, the probability that $X$ is at most $k$
 
-| $k$ | $F_X(k)$                                                     |
-|:---:|:------------------------------------------------------------ |
-|  0  | $p_X(0)=\frac{1}{4}$                                         |
-|  1  | $p_X(0)+p_X(1)=\frac{1}{4}+\frac{1}{2}=\frac{3}{4}$          |
-|  2  | $p_X(0)+p_X(1)+p_X(2)=\frac{1}{4}+\frac{1}{2}+\frac{1}{4}=1$ |
+| $k$ | $F_X(k)$                                                              |
+| :-: | :-------------------------------------------------------------------- |
+|  0  | ${} p_X(0)=\dfrac{1}{4} {}$                                           |
+|  1  | ${} p_X(0)+p_X(1)=\dfrac{1}{4}+\dfrac{1}{2}=\dfrac{3}{4} {}$          |
+|  2  | ${} p_X(0)+p_X(1)+p_X(2)=\dfrac{1}{4}+\dfrac{1}{2}+\dfrac{1}{4}=1 {}$ |
 
 #### Mean or Expected Value
 - The average value of $X$ in the population
@@ -229,7 +231,7 @@ $$
 
 ### Binomial Distribution
 - Experiment consists of $n$ identical trials
-- Each trial results in one of two outcomes
+- Each trial results in **one of two** outcomes
 - The probability of success on a single trial is equal to $p$ and remains from trial to trial. Failure, $q=1-p$
 - Trials are independent
 - Each trial is called a ~={blue}Bernoulli Trial=~
