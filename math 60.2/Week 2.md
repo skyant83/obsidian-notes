@@ -8,13 +8,17 @@
 	- [Probability Distribution](#Probability%20Distribution)
 		- [~={blue}Probability Distribution Function (pdf) $p_X(k)$=~](#~=%7Bblue%7DProbability%20Distribution%20Function%20(pdf)%20$p_X(k)$=~)
 		- [~={blue}Probability Distribution Table=~](#~=%7Bblue%7DProbability%20Distribution%20Table=~)
-		- [Cumulative Distribution $F_X(k)$](#Cumulative%20Distribution%20$%7B%7D%20F_X(k)%20%7B%7D$)
+		- [Cumulative Distribution $F_X(k)$](#Cumulative%20Distribution%20$F_X(k)$)
 		- [Mean or Expected Value](#Mean%20or%20Expected%20Value)
 		- [Standard Deviation and Variance](#Standard%20Deviation%20and%20Variance)
 	- [Binomial Distribution](#Binomial%20Distribution)
 		- [~={blue}Probability Distribution Function=~](#~=%7Bblue%7DProbability%20Distribution%20Function=~)
 		- [Mean, Variance, Standard Deviation](#Mean,%20Variance,%20Standard%20Deviation)
 		- [~={green}Excel=~](#~=%7Bgreen%7DExcel=~)
+	- [Probability Distribution Continuous Variable](#Probability%20Distribution%20Continuous%20Variable)
+		- [~={blue}Probability Density Function $f_X(x)$=~](#~=%7Bblue%7DProbability%20Density%20Function%20$f_X(x)$=~)
+		- [Cumulative Distribution](#Cumulative%20Distribution)
+
 
 ## Day 2
 ### Counting Techniques
@@ -254,4 +258,9 @@ $$
 	- $\displaystyle\lim_{x\to\infty} F_X(x)=1$
 	- $\displaystyle\lim_{x\to-\infty} F_X(x)=0$
 
-#### Cumulative Distribution
+#### ~={blue}Cumulative Distribution Function $F_X(x)$=~
+$$
+	\begin{align}
+		
+	\end{align}
+$$
