@@ -1,5 +1,19 @@
-```insta-toc
-```
+- [Day 2](#Day%202)
+	- [Counting Techniques](#Counting%20Techniques)
+	- [Permutation](#Permutation)
+	- [Combination](#Combination)
+	- [Probability](#Probability)
+	- [Conditional Probability](#Conditional%20Probability)
+- [Day 3](#Day%203)
+	- [Probability Distribution](#Probability%20Distribution)
+		- [~={blue}Probability Distribution **Function** (pdf)=~](#~=%7Bblue%7DProbability%20Distribution%20**Function**%20(pdf)=~)
+		- [~={blue}Probability Distribution Table=~](#~=%7Bblue%7DProbability%20Distribution%20Table=~)
+		- [Cumulative Distribution](#Cumulative%20Distribution)
+		- [Mean or Expected Value](#Mean%20or%20Expected%20Value)
+		- [Standard Deviation and Variance](#Standard%20Deviation%20and%20Variance)
+	- [Binomial Distribution](#Binomial%20Distribution)
+		- [~={blue}Probability Distribution Function=~](#~=%7Bblue%7DProbability%20Distribution%20Function=~)
+
 ## Day 2
 ### Counting Techniques
 (The $mn$ Rule [Fundamental Counting Principle])
@@ -122,7 +136,7 @@ $$
 |      $E_3$       |     T      |     H      |              $\frac{1}{4}$              |                  1                  |
 |      $E_4$       |     T      |     T      |              $\frac{1}{4}$              |                  0                  |
 
-#### ~={blue}Probability Distribution **Function** (pdf)=~
+#### ~={blue}Probability Distribution **Function** (pdf) $p_X(k)$=~
 $$
 	p_X(k)=
 	\begin{cases}
@@ -139,7 +153,7 @@ $$
 |  1  | $\frac{1}{2}$ |
 |  2  | $\frac{1}{4}$ |
 
-#### Cumulative Distribution
+#### Cumulative Distribution ${} F_X(k) {}$
 - formula, table or graph that gives all the possible values $k$ and $F_X(k) = P(X\le k)$, the probability that $X$ is at most $k$
 
 | $k$ | $F_X(k)$                                                     |
@@ -201,3 +215,22 @@ $$
 		&\textrm{aka. } X \sim B(n,p)
 	\end{align}
 $$
+#### Mean, Variance, Standard Deviation
+$$
+	\begin{align}
+		\mu &= np \\\\
+		\sigma^2 &= np(1-p) \\\\
+		\sigma &= \sqrt{np(1-p)} 
+	\end{align}
+$$
+
+#### ~={green}Excel=~
+(Probability Dist Func)
+```js
+=BINOM.DIST(X,N,p,FALSE)
+```
+
+(Cumulative Dist Func)
+```js
+=BINOM.DIST(X,N,p,TRUE)
+```

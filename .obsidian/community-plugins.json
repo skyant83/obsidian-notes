@@ -23,5 +23,6 @@
   "better-export-pdf",
   "truth-table-gen",
   "numerals",
-  "inline-math"
+  "inline-math",
+  "break-page"
 ]

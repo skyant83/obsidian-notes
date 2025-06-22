@@ -1,9 +1,19 @@
 {
-  "bulletType": "number",
-  "indentSize": 2,
+  "bulletType": "dash",
+  "indentSize": 4,
   "updateDelay": 2000,
   "tocTitle": "Table of Contents",
   "excludedHeadingLevels": [],
   "excludedHeadingText": [],
-  "excludedChars": []
+  "excludedChars": [
+    "*",
+    "_",
+    "`",
+    "==",
+    "~~",
+    "{",
+    "}",
+    "#",
+    "\\"
+  ]
 }

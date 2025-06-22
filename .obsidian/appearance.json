@@ -1,8 +1,6 @@
 {
   "theme": "obsidian",
-  "enabledCssSnippets": [
-    "table_center"
-  ],
+  "enabledCssSnippets": [],
   "nativeMenus": false,
   "textFontFamily": "JetBrains Mono",
   "monospaceFontFamily": "JetBrains Mono"
