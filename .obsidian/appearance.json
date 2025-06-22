@@ -4,5 +4,6 @@
     "table_center"
   ],
   "nativeMenus": false,
-  "textFontFamily": "JetBrains Mono"
+  "textFontFamily": "JetBrains Mono",
+  "monospaceFontFamily": "JetBrains Mono"
 }

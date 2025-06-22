@@ -77,7 +77,7 @@ $$
 $$
 	P(A|B) = \frac{P(A\cap B)}{P(B)}
 $$
-- Note the Multiplication Rule
+- Note the **Multiplication Rule**
 $$
 	\begin{align}
 		P(A\cap B) &= P(A|B)\cdot P(B) \\
@@ -97,3 +97,37 @@ $$
 	P(A\cap B) &= P(A)\cdot P(B)
 	\end{align}
 $$
+
+- Mutual Independence
+	- Events $A_1$$,A_2,\cdots ,A_n$ are mutually independent if each pair of events $A_i$ and $A_j$ are independent.
+$$
+	P(A_1 \cap A_2 \cap\cdots\cap A_n) = P(A_1)\cdot P(A_2)\cdot\,\cdots\,\cdot P(A_n)
+$$
+
+---
+## Day 3
+### Probability Distribution
+- A formula, table, or graph that gives all the possible values $k$ of the discrete random variable $X$, and the probability $p_X(k)=P(X=k)$ associated with each value
+- $p_X(k) \ge 0$
+- $\displaystyle\sum_{\textrm{all }k} p_x(k)=1$
+
+(Example)
+	Toss two fair coins and let $X$ be the number of heads observed. Find the probability distribution for $X$.
+
+| **Simple Event** | **Coin 1** | **Coin 2** | Probability of Simple Event<br>$P(E_i)$ | **Number of Heads Observed**<br>$X$ |
+|:----------------:|:----------:|:----------:|:---------------------------------------:|:-----------------------------------:|
+|      $E_1$       |     H      |     H      |              $\frac{1}{4}$              |                  2                  |
+|      $E_2$       |     H      |     T      |              $\frac{1}{4}$              |                  1                  |
+|      $E_3$       |     T      |     H      |              $\frac{1}{4}$              |                  1                  |
+|      $E_4$       |     T      |     T      |              $\frac{1}{4}$              |                  0                  |
+
+	- ~={blue}Probability Distribution **Function** (pdf)=~
+$$
+	p_X(k)=
+	\begin{cases}
+		\frac{1}{4} \textrm{ if } k=0 \\
+		\frac{1}{2} \textrm{ if } k=1 \\
+		\frac{1}{4} \textrm{ if } k=2
+	\end{cases}
+$$
+- 
