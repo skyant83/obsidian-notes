@@ -1,24 +1,38 @@
 - [Day 2](#Day%202)
 	- [Counting Techniques](#Counting%20Techniques)
 	- [Permutation](#Permutation)
+		- [Distinct Permutation](#Distinct%20Permutation)
+		- [Repeating Permutation](#Repeating%20Permutation)
+			- [Example](#Example)
+		- [Circular Permutation](#Circular%20Permutation)
+			- [Example](#Example)
 	- [Combination](#Combination)
+			- [Example](#Example)
 	- [Probability](#Probability)
+		- [Uniform Probability Model](#Uniform%20Probability%20Model)
 	- [Conditional Probability](#Conditional%20Probability)
+		- [Dependent Events](#Dependent%20Events)
+		- [Independent Events](#Independent%20Events)
 - [Day 3](#Day%203)
 	- [Probability Distribution](#Probability%20Distribution)
+		- [Example](#Example)
 		- [~={blue}Probability Distribution Function (pdf) $p_X(k)$=~](#~=%7Bblue%7DProbability%20Distribution%20Function%20(pdf)%20$p_X(k)$=~)
 		- [~={blue}Probability Distribution Table=~](#~=%7Bblue%7DProbability%20Distribution%20Table=~)
 		- [Cumulative Distribution $F_X(k)$](#Cumulative%20Distribution%20$F_X(k)$)
 		- [Mean or Expected Value](#Mean%20or%20Expected%20Value)
 		- [Standard Deviation and Variance](#Standard%20Deviation%20and%20Variance)
 	- [Binomial Distribution](#Binomial%20Distribution)
+		- [Example](#Example)
 		- [~={blue}Probability Distribution Function=~](#~=%7Bblue%7DProbability%20Distribution%20Function=~)
 		- [Mean, Variance, Standard Deviation](#Mean,%20Variance,%20Standard%20Deviation)
 		- [~={green}Excel=~](#~=%7Bgreen%7DExcel=~)
 	- [Probability Distribution Continuous Variable](#Probability%20Distribution%20Continuous%20Variable)
 		- [~={blue}Probability Density Function $f_X(x)$=~](#~=%7Bblue%7DProbability%20Density%20Function%20$f_X(x)$=~)
-		- [Cumulative Distribution](#Cumulative%20Distribution)
-
+		- [~={blue}Cumulative Distribution Function $F_X(x)$=~](#~=%7Bblue%7DCumulative%20Distribution%20Function%20$F_X(x)$=~)
+	- [Normal Distribution](#Normal%20Distribution)
+		- [~={blue}Gaussian Curve=~](#~=%7Bblue%7DGaussian%20Curve=~)
+		- [Standardization](#Standardization)
+<div class="page-break" style="page-break-before: always;"></div>
 
 ## Day 2
 ### Counting Techniques
@@ -31,9 +45,7 @@
 - $\prod^{k}_{x=1} n_x$
 
 ### Permutation
-Arrangement of Objects
-
-(Distinct Permutation)
+#### Distinct Permutation
 - Permutation of $n$ objects is $n!$
 - Permutation of $n$ objects $r$ at a time
 $$
@@ -45,23 +57,46 @@ $$
 $$
 - Note that $P(n,n) = n!$
 
-(Repeating Permutation)
+#### Repeating Permutation
 - Permutation of $n$ objects with $k$ types
 $$
 	\frac{n!}{n_1!n_2!\cdots n_k!}
 $$
+##### Example
+>How many ways can 9 beads (3 red, 2 yellow, 4 blue) lined up
 
-(Circular Permutation)
-- Permutation in a circle with one fixed object is $(n-1)!$
+$$
+	\frac{9!}{3!2!4!} = 1260
+$$
+#### Circular Permutation
+- Permutation in a circle with one fixed object is $(n-1)!$	
 
+##### Example
+> 6 different colored beads (~={red}**r**=~ ~={blue}**b**=~ ~={yellow}**y**=~ ~={purple}**p**=~ **bl** ~={green}**g**=~) into a bracelet if ~={red}**red**=~, ~={blue}**blue**=~, ~={yellow}**yellow**=~ are together, and ~={purple}**purple**=~, **black** must not be adjacent
+$$
+	\begin{align}
+		3!(4-1)! = 36 &\qquad \text{rby together}\\
+		3!2!(3-1)! = 24 &\qquad \text{rby together and pbl together}\\
+		36-24 = 12 &\qquad \text{rby together, pbl not}
+	\end{align}
+$$
 ### Combination
 - Counting without arrangement
 $$
 	C(n,r) = \frac{n!}{r!(n-r)!}
 $$
+##### Example
+>Possible combinations in 7 balls drawn from a set of 42 numbered balls
 
+$$
+	\begin{align}
+		C(42,7) &= \binom{42}{7} \\
+			   &= \frac{42!}{7!(42-7)!} \\
+			   &= 26\,978\,328
+	\end{align}
+$$
 ### Probability
-(Uniform Probability Model)
+#### Uniform Probability Model
 $$
 	\begin{align}
 		P(A) &= \frac{\textrm{no. of simple events in  }A}{\textrm{no. of simple events in } S} \\
@@ -92,7 +127,7 @@ $$
 - Compliment --> $P(A^C) = 1 - P(A)$
 
 ### Conditional Probability
-(Dependent Events)
+#### Dependent Events
 - An event occurring affects the probability of the following event
 - Probability of $A$ given event $B$ has occurred
 $$
@@ -106,7 +141,7 @@ $$
 	\end{align}
 $$
 
-(Independent Events)
+#### Independent Events
 - Probability of one does not affect the other
 - Independent if
 $$
@@ -132,7 +167,7 @@ $$
 - $p_X(k) \ge 0$
 - $\displaystyle\sum_{\textrm{all }k} p_x(k)=1$
 
-(Example)
+#### Example
 	Toss two fair coins and let $X$ be the number of heads observed. Find the probability distribution for $X$.
 
 | **Simple Event** | **Coin 1** | **Coin 2** | Probability of Simple Event<br><br>$P(E_i)$ | **Number of Heads Observed**<br><br>$X$ |
@@ -175,8 +210,8 @@ $$
 $$
 
 #### Standard Deviation and Variance
-(Standard Deviation)
-- Measures the spread or variability of the random variable
+- Standard Deviation
+	- Measures the spread or variability of the random variable
 $$
 	\begin{align}
 		\sigma &= \sqrt{E((X-\mu)^2)} \\
@@ -184,7 +219,7 @@ $$
 	\end{align}
 $$
 
-(Variance)
+- Variance
 $$
 	\begin{align}
 		\sigma^2 &= E((X-\mu)^2) \\
@@ -199,8 +234,8 @@ $$
 - Trials are independent
 - Each trial is called a ~={blue}Bernoulli Trial=~
 
-(Example)
-	3 distinguishable biased coins --> 0.60 heads.
+#### Example
+	33 distinguishable biased coins --> 0.60 heads.
 
 | Coin 1 | Coin 2 | Coin 3 | Number of Heads | Probability |
 | ------ | ------ | ------ | :-------------: | :---------: |
@@ -231,12 +266,12 @@ $$
 $$
 
 #### ~={green}Excel=~
-(Probability Dist Func)
+- Probability Dist Func
 ```js
 =BINOM.DIST(X,N,p,FALSE)
 ```
 
-(Cumulative Dist Func)
+- Cumulative Dist Func
 ```js
 =BINOM.DIST(X,N,p,TRUE)
 ```
