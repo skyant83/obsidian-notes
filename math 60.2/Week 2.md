@@ -278,6 +278,48 @@ $$
 =BINOM.DIST(X,N,p,TRUE)
 ```
 
+#### Examples
+> 6 chips ($N$ Total), 2 defective ($D$ Defective). $X = \text{defective} = 0,1,2$. Find probability distribution
+1. $\dbinom{D}{k}$ -> ways to choose k defective chips
+2. $\dbinom{N-D}{n-k}$ -> ways to choose the rest $(n-k)$
+3. $\dbinom{N}{n}$ -> total number of possible ways to choose any $n$ chips
+$$
+	\frac{\dbinom{2}{k}\dbinom{4}{3-k}}{\dbinom{6}{3}}
+$$
+
+|   $k$    |       0        |       1        |          2           |
+| :------: | :------------: | :------------: | :------------------: |
+| $p_X(k)$ | $\dfrac{1}{5}$ | $\dfrac{3}{5}$ | $\dfrac{1}{5}$ |
+> 4 laptops, probability distribution
+>
+
+|   $k$    |  0  |  1  |  2  |  3   |  4  |  5   |
+| :------: | :-: | :-: | :-: | :--: | :-: | :--: |
+| $p_X(k)$ | 0.1 | 0.4 | 0.2 | 0.15 | 0.1 | 0.05 |
+> Find mean, variance, standard deviation
+
+$$
+	\begin{align}
+		\mu &= \sum^{5}_{k=0}k\cdot p_X(k) \\
+			&= 0(0.10) + 1(0.40) + 2(0.20) + 3(0.15) + 4(0.10) + 5(0.05) \\
+			&= 1.90 \\\\
+		\sigma^2 &= \sum^{5}_{k=0}(k-1.90)^2px(k)\\
+				 &= (0 - 1.90)^2(0.10) + (1 - 1.90)^2(0.40) + \cdots  + (5 - 1.90)^2(0.05) \\
+				 &= 1.79\\\
+		 \sigma &= \sqrt{1.79}\\
+				&\approx 1.34
+	\end{align}
+$$
+
+> 5000 tickets @ Php 100 each. Jackpot = Php 25,00. Expected gain of 4 tickets?
+
+$$
+	\begin{align}
+		\mu = E(X) &= \sum_{k\in \{-400,\,24\,600\}} k\cdot p_X(k)\\
+				   &= (-400)\cdot\frac{4\,996}{5\,000}+24\,600\cdot\frac{4}{5\,000}\\
+				   &= -380
+	\end{align}
+$$
 ### Probability Distribution Continuous Variable
 #### ~={blue}Probability Density Function $f_X(x)$=~
 - For all values $x$ of $X$
@@ -325,16 +367,26 @@ defaultAxes: {
 	}
 }
 elements: [
-	{type: slider, def: [[0.12,-0.075],[0.7,-0.075],[1.4,2,50]], att: {name: "σ"}},
+	{type: slider, def: [[0.12,-0.075],[0.7,-0.075],[1.4,2,10]], att: {name: "σ"}},
 	{type: functiongraph, def: ["f:(1 / (2 * Math.sqrt(2 * Math.PI))) * Math.exp(-(Math.pow(x - 0, 2)*50) / (2 * Math.pow(2, 2)))"]},
-	{type: segment, def: [[-0.96,0.25],[-0.96,0]], att: {firstArrow: {type: 5}, strokeColor: '#ffff'}},
-	{type: segment, def: [[-0.96,0],[1,0]], att: {lastArrow: {type: 5}, strokeColor: '#ffff'}},
+	{type: segment, def: [[-0.96,0.25],[-0.96,0]], att: {firstArrow: {type: 5}, strokeColor: '#000'}},
+	
+	{type: segment, def: [[-0.96,0],[1,0]], att: {lastArrow: {type: 5}, strokeColor: '#000'}},
+	
 	{type: segment, def: [[0,"f:(1 / (2 * Math.sqrt(2 * Math.PI))) * Math.exp(-(Math.pow(0, 2)*50) / (2 * Math.pow(2, 2)))"],[0,0]]},
 	{type: point, def: [0,0], att: {name: "μ"}},
+	
 	{type: segment, def: [["f:0-(e0/10)","f:(1 / (2 * Math.sqrt(2 * Math.PI))) * Math.exp(-(Math.pow(-(e0/10), 2)*50) / (2 * Math.pow(2, 2)))"],["f:0-(e0/10)",0]]},
 	{type: point, def: ["f:-(e0/10)",0], att: {name: "μ-σ"}},
+	
 	{type: segment, def: [["f:(e0/10)","f:(1 / (2 * Math.sqrt(2 * Math.PI))) * Math.exp(-(Math.pow(((e0/10)), 2)*50) / (2 * Math.pow(2, 2)))"],["f:(e0/10)",0]]},
 	{type: point, def: ["f:(e0/10)",0], att: {name: "μ+σ"}},
+
+	{type: segment, def: [["f:-2*(e0/10)","f:(1 / (2 * Math.sqrt(2 * Math.PI))) * Math.exp(-(Math.pow(-2*(e0/10), 2)*50) / (2 * Math.pow(2, 2)))"],["f:-2*(e0/10)",0]]},
+	{type: point, def: ["f:-2*(e0/10)",0], att: {name: "μ-2σ"}},
+	
+	{type: segment, def: [["f:2*(e0/10)","f:(1 / (2 * Math.sqrt(2 * Math.PI))) * Math.exp(-(Math.pow((2*(e0/10)), 2)*50) / (2 * Math.pow(2, 2)))"],["f:2*(e0/10)",0]]},
+	{type: point, def: ["f:2*(e0/10)",0], att: {name: "μ+2σ"}},
 ]
 ```
 $$
@@ -343,7 +395,7 @@ $$
 - Large values of $\sigma$ reduce the height of the curve and increase the spread
 - $X \sim N\;(\mu,\sigma)$
 
-#### ~={blue}Gaussian Curve=~
+	#### ~={blue}Gaussian Curve=~
 $$
 	\begin{gather}
 		X\sim N\;(0,1)\\\\
