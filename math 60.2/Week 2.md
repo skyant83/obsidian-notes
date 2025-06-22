@@ -236,3 +236,22 @@ $$
 ```js
 =BINOM.DIST(X,N,p,TRUE)
 ```
+
+### Probability Distribution Continuous Variable
+#### ~={blue}Probability Density Function $f_X(x)$=~
+- For all values $x$ of $X$
+	- $f_X(x) \ge 0$
+	- $\displaystyle\int^{\infty}_{-\infty} f_X(x)\;dx = 1 \quad \textnormal{(the total area under the curve)}$
+- Integration is actually done over all values $x$ that $X$ can assume
+$$
+	\displaystyle P(a\le X\le b) = \int^{b}_{a} f_X(x)\;dx
+$$
+- Rule Satisfaction
+	- $P(X=a)=0$
+	- ${} P(X\ge a) = P(X>a) {}$
+	- ${} P(X\le a) = P(X<a) {}$
+	- $P(X>a) = 1-F_X(a)$
+	- $\displaystyle\lim_{x\to\infty} F_X(x)=1$
+	- $\displaystyle\lim_{x\to-\infty} F_X(x)=0$
+
+#### Cumulative Distribution

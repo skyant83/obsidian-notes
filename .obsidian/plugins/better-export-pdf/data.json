@@ -8,7 +8,7 @@
   "printBackground": false,
   "generateTaggedPDF": false,
   "displayMetadata": false,
-  "debug": false,
+  "debug": true,
   "isTimestamp": false,
   "enabledCss": true,
   "concurrency": "5",

@@ -2,7 +2,8 @@
   "theme": "obsidian",
   "enabledCssSnippets": [
     "bolder",
-    "test"
+    "test",
+    "print"
   ],
   "nativeMenus": false,
   "textFontFamily": "JetBrains Mono",
