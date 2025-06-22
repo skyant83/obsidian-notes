@@ -20,5 +20,8 @@
   "advanced-cursors",
   "fast-text-color",
   "insta-toc",
-  "better-export-pdf"
+  "better-export-pdf",
+  "truth-table-gen",
+  "numerals",
+  "inline-math"
 ]

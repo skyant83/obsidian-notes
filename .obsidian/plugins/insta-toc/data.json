@@ -1,5 +1,5 @@
 {
-  "bulletType": "dash",
+  "bulletType": "number",
   "indentSize": 2,
   "updateDelay": 2000,
   "tocTitle": "Table of Contents",

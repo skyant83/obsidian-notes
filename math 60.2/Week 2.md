@@ -1,34 +1,4 @@
 ```insta-toc
----
-title:
-  name: Table of Contents
-  level: 1
-  center: false
-exclude: ""
-style:
-  listType: dash
-omit: []
-levels:
-  min: 1
-  max: 6
----
-
-# Table of Contents
-
-- Day 2
-    - Counting Techniques
-    - Permutation
-    - Combination
-    - Probability
-    - Conditional Probability
-- Day 3
-    - Probability Distribution
-        - ~={blue}Probability Distribution **Function** (pdf)=~
-        - ~={blue}Probability Distribution Table=~
-    - Cumulative Distribution
-    - Mean or Expected Value
-    - Standard Deviation and Variance
-    - Binomial Distribution
 ```
 ## Day 2
 ### Counting Techniques
@@ -169,7 +139,7 @@ $$
 |  1  | $\frac{1}{2}$ |
 |  2  | $\frac{1}{4}$ |
 
-### Cumulative Distribution
+#### Cumulative Distribution
 - formula, table or graph that gives all the possible values $k$ and $F_X(k) = P(X\le k)$, the probability that $X$ is at most $k$
 
 | $k$ | $F_X(k)$                                                     |
@@ -178,13 +148,13 @@ $$
 |  1  | $p_X(0)+p_X(1)=\frac{1}{4}+\frac{1}{2}=\frac{3}{4}$          |
 |  2  | $p_X(0)+p_X(1)+p_X(2)=\frac{1}{4}+\frac{1}{2}+\frac{1}{4}=1$ |
 
-### Mean or Expected Value
+#### Mean or Expected Value
 - The average value of $X$ in the population
 $$
 	\mu = E(X) = \sum_{\textrm{all }k} k\cdot p_X(k)
 $$
 
-### Standard Deviation and Variance
+#### Standard Deviation and Variance
 (Standard Deviation)
 - Measures the spread or variability of the random variable
 $$
@@ -203,3 +173,31 @@ $$
 $$
 
 ### Binomial Distribution
+- Experiment consists of $n$ identical trials
+- Each trial results in one of two outcomes
+- The probability of success on a single trial is equal to $p$ and remains from trial to trial. Failure, $q=1-p$
+- Trials are independent
+- Each trial is called a ~={blue}Bernoulli Trial=~
+
+(Example)
+	3 distinguishable biased coins --> 0.60 heads.
+
+| Coin 1 | Coin 2 | Coin 3 | Number of Heads | Probability |
+| ------ | ------ | ------ | :-------------: | :---------: |
+| H      | H      | H      |        3        |   $0.216$   |
+| H      | H      | T      |        2        |   $0.144$   |
+| H      | T      | H      |        2        |   $0.144$   |
+| H      | T      | T      |        1        |   $0.096$   |
+| T      | H      | H      |        2        |   $0.144$   |
+| T      | H      | T      |        1        |   $0.096$   |
+| T      | T      | H      |        1        |   $0.096$   |
+| T      | T      | T      |        0        |   $0.064$   |
+#### ~={blue}Probability Distribution Function=~
+- If $p$ is the probability of success in $n$ Bernoulli Trials, then the probability of $k$ successes:
+$$
+	\begin{align}
+		&p_X(k) = P(X=k) = nCp\cdot p^k\cdot (1-p)^{n-k}\\\\
+		&\textrm{for }k=0,1,\cdots,n \\
+		&\textrm{aka. } X \sim B(n,p)
+	\end{align}
+$$
