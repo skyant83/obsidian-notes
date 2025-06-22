@@ -1,5 +1,6 @@
+```insta-toc
+```
 ## Day 2
-
 ### Counting Techniques
 (The $mn$ Rule [Fundamental Counting Principle])
 - First stage = $m$ & Second stage = $n$
@@ -121,7 +122,7 @@ $$
 |      $E_3$       |     T      |     H      |              $\frac{1}{4}$              |                  1                  |
 |      $E_4$       |     T      |     T      |              $\frac{1}{4}$              |                  0                  |
 
-	- ~={blue}Probability Distribution **Function** (pdf)=~
+#### ~={blue}Probability Distribution **Function** (pdf)=~
 $$
 	p_X(k)=
 	\begin{cases}
@@ -130,4 +131,24 @@ $$
 		\frac{1}{4} \textrm{ if } k=2
 	\end{cases}
 $$
-- 
+#### ~={blue}Probability Distribution Table=~
+
+| $k$ |   $p_X(k)$    |
+| :-: | :-----------: |
+|  0  | $\frac{1}{4}$ |
+|  1  | $\frac{1}{2}$ |
+|  2  | $\frac{1}{4}$ |
+
+### Cumulative Distribution
+- formula, table or graph that gives all the possible values $k$ and $F_X(k) = P(X\le k)$, the probability that $X$ is at most $k$
+
+| $k$ | $F_X(k)$                                                     |
+|:---:|:------------------------------------------------------------ |
+|  0  | $p_X(0)=\frac{1}{4}$                                         |
+|  1  | $p_X(0)+p_X(1)=\frac{1}{4}+\frac{1}{2}=\frac{3}{4}$          |
+|  2  | $p_X(0)+p_X(1)+p_X(2)=\frac{1}{4}+\frac{1}{2}+\frac{1}{4}=1$ |
+
+### Mean or Expected Value
+$$
+	\mu = E(X) = \sum_{\textrm{all }k} k\cdot p_X(k)
+$$
