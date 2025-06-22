@@ -28,6 +28,7 @@ levels:
     - Cumulative Distribution
     - Mean or Expected Value
     - Standard Deviation and Variance
+    - Binomial Distribution
 ```
 ## Day 2
 ### Counting Techniques
@@ -200,3 +201,5 @@ $$
 			     &= \sum_{\textrm{all }k}(k-\mu)^2\cdot p_X(k)
 	\end{align}
 $$
+
+### Binomial Distribution
