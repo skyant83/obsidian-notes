@@ -1,11 +1,10 @@
 {
   "theme": "obsidian",
   "enabledCssSnippets": [
+    "print",
     "bolder",
-    "test",
-    "print"
+    "theme-overide"
   ],
   "nativeMenus": false,
-  "textFontFamily": "JetBrains Mono",
-  "monospaceFontFamily": "JetBrains Mono"
+  "textFontFamily": "JetBrains Mono"
 }

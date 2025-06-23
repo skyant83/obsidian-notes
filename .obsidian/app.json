@@ -10,6 +10,5 @@
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
   "newFileLocation": "current",
-  "trashOption": "system",
-  "livePreview": true
+  "trashOption": "system"
 }

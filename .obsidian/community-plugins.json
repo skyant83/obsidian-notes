@@ -7,7 +7,6 @@
   "unicode-search",
   "select-word",
   "lovely-mindmap",
-  "list-style",
   "obsidian-plugin-toc",
   "yet-another-obsidian-synchronizer",
   "obsidian-git",
@@ -18,12 +17,14 @@
   "obsidian-image-toolkit",
   "highlightr-plugin",
   "advanced-cursors",
-  "fast-text-color",
-  "insta-toc",
   "better-export-pdf",
-  "truth-table-gen",
+  "fast-text-color",
+  "graphs",
+  "insta-toc",
   "numerals",
   "inline-math",
+  "plot-vectors-graphs",
   "break-page",
-  "graphs"
+  "truth-table-gen",
+  "find-orphaned-images"
 ]
