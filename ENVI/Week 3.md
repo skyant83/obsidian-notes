@@ -16,3 +16,4 @@
 - Return to the country-side: widely-spread suburban homes with gardens, separated by ample wood
 - Industrialization brought people to the city <-> provided means and motive to travel between urban and rural
 - A "civilized way" of loving nature
+-—
