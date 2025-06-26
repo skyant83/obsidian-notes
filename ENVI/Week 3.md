@@ -36,3 +36,12 @@
 - Biographical Availability
 - Structural Availability
 - Political Engagement
+--- 
+## Day 3
+### Post-war aff... 
+- Idea of creating a home included bringing nature into home space
+#### The Climax Community
+- Nature became accessible and predictable
+- Also challenged antagonistic view of some animals and challenge human intervention
+- Aldo Leopold
+> "We abuse land because we regard it as..."
