@@ -26,5 +26,6 @@
   "plot-vectors-graphs",
   "break-page",
   "truth-table-gen",
-  "find-orphaned-images"
+  "find-orphaned-images",
+  "obsidian-paste-image-rename"
 ]
