@@ -1852,6 +1852,12 @@
     "initialized": true,
     "codepoints": [
       {
+        "firstUsed": "2025-06-30T13:17:18.768Z",
+        "lastUsed": "2025-06-30T13:17:27.064Z",
+        "useCount": 2,
+        "codepoint": "↑"
+      },
+      {
         "firstUsed": "2025-02-26T16:07:36.916Z",
         "lastUsed": "2025-02-26T16:07:36.916Z",
         "useCount": 1,

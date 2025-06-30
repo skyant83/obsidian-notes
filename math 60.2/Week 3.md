@@ -103,3 +103,4 @@ Sampling distribution of the median
 |    12     | $\frac{3}{10}$ |
 
 #### Central Limit Theorem
+- If random samples of $n$ observations are drawn from a non-normal population with finite mean $\mu$ and standard deviation $\sigma$, then when $n$ is large, the sampling distribution of the sample mean is approximately normal with mean $\mu$ and standard deviation $\dfrac{\sigma}{\sqrt{n}}$. Accuracy ↑ as $n$ ↑
