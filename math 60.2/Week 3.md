@@ -104,3 +104,137 @@ Sampling distribution of the median
 
 #### Central Limit Theorem
 - If random samples of $n$ observations are drawn from a non-normal population with finite mean $\mu$ and standard deviation $\sigma$, then when $n$ is large, the sampling distribution of the sample mean is approximately normal with mean $\mu$ and standard deviation $\dfrac{\sigma}{\sqrt{n}}$. Accuracy ↑ as $n$ ↑
+- If the population is normally distributed, then the sampling distribution of $\overline{X}$ is also normal regardless of the sample size.
+- If the population distribution is symmetrical (non-normal), then the sampling distribution of $\overline{X}$ already becomes approximately normal for relatively small sample sizes.
+- If the population distribution is skewed, the sampling distribution of $\overline{X}$ is approximately normal for sample sizes of at least 30.
+##### Example
+> Suppose you toss two fair dice and you record the average of the two numbers in the two upper faces. Note that there are $6(6)=36$ possible outcomes. When all the 36 possible averages are consolidated in a table, the result is the sampling distribution of $\overline{X}$
+
+| $k$ | ${} p_{\overline{X}}(k) {}$ |
+| :-: | :-------------------------: |
+|  1  |       $\frac{1}{36}$        |
+| 1.5 |       $\frac{2}{36}$        |
+|  2  |       $\frac{3}{36}$        |
+| 2.5 |       $\frac{4}{36}$        |
+|  3  |       $\frac{5}{36}$        |
+| 3.5 |       $\frac{6}{36}$        |
+|  4  |       $\frac{5}{36}$        |
+| 4.5 |       $\frac{4}{36}$        |
+|  5  |       $\frac{3}{36}$        |
+| 5.5 |       $\frac{2}{36}$        |
+|  6  |       $\frac{1}{36}$        |
+```graph
+bounds: [-1,0.2,7,-0.03]
+defaultAxes: {
+	y: {
+		ticks: {
+			insertTicks: false,
+			ticksDistance: 0.05,
+		}
+	}
+}
+elements: [
+	{
+		type: chart, 
+		def: [
+			[
+				1,
+				1.5,
+				2,
+				2.5,
+				3,
+				3.5,
+				4,
+				4.5,
+				5,
+				5.5,
+				6
+			],
+			[
+				0.028,
+				0.055,
+				0.083,
+				0.11,
+				0.138,
+				0.166,
+				0.138,
+				0.11,
+				0.083,
+				0.055,
+				0.028,
+			]
+		],
+		att: {
+			chartStyle: 'bar',
+			width: 0.4,
+			colors: [
+				'#FBD79D',
+				'#FBD79D',
+				'#FBD79D',
+				'#FBD79D',
+				'#FBD79D',
+				'#FBD79D',
+				'#FBD79D',
+				'#FBD79D',
+				'#FBD79D',
+				'#FBD79D',
+				'#FBD79D',
+			],
+		}
+	}
+]
+```
+
+If we try increasing the number of dice, we will see that the sampling distribution will look more and more like the normal distribution.
+
+#### Sampling Distribution of the Sample Mean
+- According to the **~={blue}CLT=~**, the sampling distribution of the sample mean is **approximately normal** for a **large sample size**
+$$
+\begin{gather}
+	\text{Estimators:}
+	\\
+	\overline{X}\dot{\sim}N (\mu, \frac{\sigma}{\sqrt{n}})
+\end{gather}
+$$
+
+##### Standard Errors
+- The standard deviation of a statistic used as an estimator of a population is called the **~={blue}standard error (SE)=~** of the estimator because it refers to the precision of the estimator
+- SE of $\overline{X}$ is $\dfrac{\sigma}{\sqrt{n}}$
+##### Probabilities for the Sample Mean $\overline{X}$
+- If the sampling distribution of $\overline{X}$ is normal or approximately normal
+	1. Find $\mu$ and calculate the SE of $\overline{X}$, which is $\frac{\sigma}{\sqrt{n}}$
+	2. Compute the desired possibility via Excel or calculator.
+###### Example
+> The duration of Alzheimer's disease from the onset of symptoms until death ranges from 3 to 20 years; the average is 8 years with a standard deviation of 4 years. The administrator of a large medical center randomly selects the medical records of 36 deceased Alzheimer's patients from the medical center's database and records the average duration. Find the approximate probabilities for these events:
+
+1. The average duration is less than 7 years.
+2. The average duration exceeds 7 years.
+3. The average duration lies within 1.2 years of the population with mean $\mu = 8$.
+
+Since the range is from 3 to 20 years and the average is 8, the data is concentrated on the lower values (skewed to the right). Since the sample size is 36 (>30), by the CLT, the sampling distribution of $\overline{X}$ is approximately normal. The mean and standard deviation of $\overline{X}$ are $\mu = 8$ and $\frac{\sigma}{\sqrt{n}} = \frac{4}{\sqrt{36}} = \frac{2}{3}$, respectively. Thus, $\overline{X} \dot{\sim} N\left(8, \frac{2}{3}\right)$.
+
+1. $P(\overline{X} < 7) = \texttt{NORM.DIST(7, 8, 2/3, TRUE)} \approx 0.0668$
+2. $P(\overline{X} > 7) = 1 - \texttt{NORM.DIST(7, 8, 2/3, TRUE)} \approx 0.9332$
+3. $\begin{align*} P(8 - 1.2 < \overline{X} < 8 + 1.2) &= P(6.8 < \overline{X} < 9.2) \\ &= \texttt{NORM.DIST(9.2, 8, 2/3, TRUE)} - \texttt{NORM.DIST(6.8, 8, 2/3, TRUE)} \\ &\approx 0.9281 \end{align*}$
+
+> A paper manufacturer requires a minimum strength of 20 pounds per square inch. To check the quality of the paper, a random sample of 16 pieces of paper is selected and a strength measurement is recorded for each. Assume that the strength measurements are normally distributed with standard deviation 2 pounds per square inch.
+1. If the mean of the population of strength measurements is 21 pounds per square inch, what is the approximate probability that, for a random sample of 16 test pieces of paper, $\overline{X} < 20$?
+2. What value would you select for the mean paper strength \mu so that $P(\overline{X} < 20) = 0.001$?
+
+Since we are given that the measurements are normally distributed, the sample mean $\overline{X}$ is also normally distributed.
+
+1. The mean and standard deviation of $\overline{X}$ are $\mu = 21$ and $\frac{\sigma}{\sqrt{n}} = \frac{2}{\sqrt{16}} = \frac{1}{2}$, respectively. Thus, $\overline{X} \dot{\sim} N\left(21, \frac{1}{2}\right)$.  
+$$
+P(\overline{X} < 20) = \texttt{NORM.DIST(20, 21, 1/2, TRUE)} \approx 0.0228
+$$
+2. For this item, $\mu$ is unknown, but the standard deviation is still $\frac{1}{2}$. To find $\mu$, we will have to standardize $\overline{X}$:  
+$$
+P(\overline{X} < 20) = P\left(\frac{\overline{X} - \mu}{\dfrac{1}{2}} < \frac{20 - \mu}{\dfrac{1}{2}}\right) = P(Z < 40 - 2\mu) = 0.001  
+$$
+To get the z-value with probability 0.001, we use the **NORM.S.INV** function in Excel:  
+
+$$
+40 - 2\mu = \texttt{NORM.S.INV(0.001)} \approx -3.0902 
+$$
+
+Solving for ${} \mu$ in the equation ${} 40 - 2\mu = -3.0902$ yields $\mu = 21.5451$.
