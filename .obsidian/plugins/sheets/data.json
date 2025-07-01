@@ -1,4 +1,4 @@
 {
-  "nativeProcessing": false,
+  "nativeProcessing": true,
   "paragraphs": true
 }

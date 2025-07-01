@@ -1,6 +1,5 @@
 [
   "table-editor-obsidian",
-  "sheets",
   "obsidian-text-format",
   "jelly-snippets",
   "obsidian-completr",
@@ -27,5 +26,6 @@
   "break-page",
   "truth-table-gen",
   "find-orphaned-images",
-  "obsidian-paste-image-rename"
+  "obsidian-paste-image-rename",
+  "table-extended"
 ]
