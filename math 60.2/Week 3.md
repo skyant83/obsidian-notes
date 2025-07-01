@@ -49,7 +49,7 @@
 
 ### Observational Study
 - Often administered through a survey.
-- The data already existed before the researcher's decision to observe or describe it.
+- The data already existed *before* the researcher's decision to observe or describe it.
 
 ### Potential issues
 - **Nonresponse:** Only a portion of the carefully selected random sample responded.
