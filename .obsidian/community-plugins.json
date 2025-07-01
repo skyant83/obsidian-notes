@@ -27,5 +27,6 @@
   "truth-table-gen",
   "find-orphaned-images",
   "obsidian-paste-image-rename",
-  "table-extended"
+  "table-extended",
+  "list-style"
 ]

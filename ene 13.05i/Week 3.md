@@ -1,9 +1,20 @@
 ## Day 1
 
-Material
--tx-
+```tx
+| The Bread of Salt | [PLOT] | [CONFLICT] | [S/A]| [POV] | \
+| | boy falls out of<br>love because<br>of social class | person vs. society | White house/small house | $1^{\text{st}}$ person |\
+| | | ~={green}<u>person vs. self</u>=~ |Panederia||\
+||||<u>Public School</u> -> ~={green}<u>American Dream</u>=~|
+| --- | :---: | :---: | :---: | :---: |
+| <u>Intertext</u>    | [Aspects: Music] || [Aspects: Lyric] ||\
+| 1. Standdren | peaceful || yearning ||\
+| 2. The Last Rose of Summer | elegant || grim ||\
+| 3. La Paloma | lively || desire || \
+| 4. Joy to the World | happy || reconciliation ||
+[Material]
+```
 
-| The Bread of Salt                                                                                             | [PLOT]<br>boy falls out of love because of social class |       [CONFLICT]<br>person vs. society       | [S/A]<br>White house/small house<br>Panederia<br>Public School | [POV]<br>$1^{\text{st}}$ person |
-| ------------------------------------------------------------------------------------------------------------- | :-----------------------------------------------------: | :------------------------------------------: | :------------------------------------------------------------: | :-----------------------------: |
-| <u>Intertext</u><br>  1. Standdren<br>  2. The Last Rose of Summer<br>  3. La Paloma<br>  4. Joy to the World |                    [Aspects: Music]                     |                      <                       |                        [Aspects: Lyric]                        |                <                |
-| ^                                                                                                             |         peaceful<br>elegant<br>lively<br>happy          | yearning<br>grim<br>desire<br>reconciliation |                                                                |                                 |
+Other Details/New Findings
+(Albert Spalding)
+- Standdren (1920's)
+- LPD (phonograph)
