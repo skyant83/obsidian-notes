@@ -1,3 +1,23 @@
+- [Day 1](#Day%201)
+	- [Sample Population](#Sample%20Population)
+	- [Probabilistic/Random Sampling](#Probabilistic/Random%20Sampling)
+		- [Simple Random Sampling](#Simple%20Random%20Sampling)
+		- [Stratified Random Sampling](#Stratified%20Random%20Sampling)
+		- [Cluster Sampling](#Cluster%20Sampling)
+		- [1-in-k Systematic Random Sample](#1-in-k%20Systematic%20Random%20Sample)
+	- [Non-Probabilistic Sampling](#Non-Probabilistic%20Sampling)
+	- [Observational Study](#Observational%20Study)
+	- [Potential issues](#Potential%20issues)
+	- [Observed vs. Random Variable](#Observed%20vs.%20Random%20Variable)
+	- [Sampling Distribution of a Statistic](#Sampling%20Distribution%20of%20a%20Statistic)
+		- [Sample Mean $\overline{x}$](#Sample%20Mean%20$%5Coverline%7Bx%7D$)
+			- [Example.](#Example.)
+		- [Central Limit Theorem](#Central%20Limit%20Theorem)
+			- [Example](#Example)
+		- [Sampling Distribution of the Sample Mean](#Sampling%20Distribution%20of%20the%20Sample%20Mean)
+			- [Standard Errors](#Standard%20Errors)
+			- [Probabilities for the Sample Mean $\overline{X}$](#Probabilities%20for%20the%20Sample%20Mean%20$%5Coverline%7BX%7D$)
+				- [Example](#Example)
 ## Day 1
 ### Sample Population
 - The use of a **~={blue}subset=~** of a population to <u>represent</u> the whole population. 
@@ -110,19 +130,11 @@ Sampling distribution of the median
 ##### Example
 > Suppose you toss two fair dice and you record the average of the two numbers in the two upper faces. Note that there are $6(6)=36$ possible outcomes. When all the 36 possible averages are consolidated in a table, the result is the sampling distribution of $\overline{X}$
 
-| $k$ | ${} p_{\overline{X}}(k) {}$ |
-| :-: | :-------------------------: |
-|  1  |       $\frac{1}{36}$        |
-| 1.5 |       $\frac{2}{36}$        |
-|  2  |       $\frac{3}{36}$        |
-| 2.5 |       $\frac{4}{36}$        |
-|  3  |       $\frac{5}{36}$        |
-| 3.5 |       $\frac{6}{36}$        |
-|  4  |       $\frac{5}{36}$        |
-| 4.5 |       $\frac{4}{36}$        |
-|  5  |       $\frac{3}{36}$        |
-| 5.5 |       $\frac{2}{36}$        |
-|  6  |       $\frac{1}{36}$        |
+
+|         $k$         |       1        |      1.5       |       2        |      2.5       |       3        |      3.5       |       4        |      4.5       |       5        |      5.5       |       6        |     |     |     |     |     |     |     |     |     |     |
+| :-----------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| $p_\overline{X}(k)$ | $\frac{1}{36}$ | $\frac{2}{36}$ | $\frac{3}{36}$ | $\frac{4}{36}$ | $\frac{5}{36}$ | $\frac{6}{36}$ | $\frac{5}{36}$ | $\frac{4}{36}$ | $\frac{3}{36}$ | $\frac{2}{36}$ | $\frac{1}{36}$ |     |     |     |     |     |     |     |     |     |     |
+
 ```graph
 bounds: [-1,0.2,7,-0.03]
 defaultAxes: {
@@ -138,31 +150,11 @@ elements: [
 		type: chart, 
 		def: [
 			[
-				1,
-				1.5,
-				2,
-				2.5,
-				3,
-				3.5,
-				4,
-				4.5,
-				5,
-				5.5,
-				6
+				1,1.5,2,2.5,3,3.5,4,4.5,5,5.5,6
 			],
 			[
-				0.028,
-				0.055,
-				0.083,
-				0.11,
-				0.138,
-				0.166,
-				0.138,
-				0.11,
-				0.083,
-				0.055,
-				0.028,
-			]
+				0.028, 0.055, 0.083, 0.11, 0.138, 0.166, 0.138, 0.11, 0.083, 0.055, 0.028,
+			],
 		],
 		att: {
 			chartStyle: 'bar',
@@ -180,6 +172,11 @@ elements: [
 				'#FBD79D',
 				'#FBD79D',
 			],
+			opacity: 1,
+			withLines: true,
+			strokeColor: '#00000',
+			strokeWidth:10,
+			strokeOpacity: 0
 		}
 	}
 ]
