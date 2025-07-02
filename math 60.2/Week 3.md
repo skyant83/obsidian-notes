@@ -235,3 +235,7 @@ $$
 $$
 
 Solving for ${} \mu$ in the equation ${} 40 - 2\mu = -3.0902$ yields $\mu = 21.5451$.
+
+$$
+\frac{0.052-0.053}{\sqrt{0.0375\cdot(1-0.0375)\cdot(\frac{1}{1000}+\frac{1}{1000})}}
+$$

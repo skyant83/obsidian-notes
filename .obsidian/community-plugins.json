@@ -28,5 +28,6 @@
   "find-orphaned-images",
   "obsidian-paste-image-rename",
   "table-extended",
-  "list-style"
+  "list-style",
+  "latex-math"
 ]
