@@ -24,28 +24,89 @@ bounds: [-9,9,9,-9]
 axis: true
 elements: [
 	{
+		type: 'point',
+		def: [0,8],
+		att: {
+			name: 'Colonial System',
+			label: {
+				anchorX: 'middle',
+				anchorY: 'top',
+				offset: [-2, 5]
+			},
+			opacity: 0
+		}
+	},
+	{
 		type: 'polygon',
 		def: [[-7,-7],[-7,7],[7,7],[7,-7]],
 		att: {
-			name: 'Colonial System',
-			withLabel: true,
+			opacity: 1,
+			color: '#F7FFA6'
+		}
+	},
+	{
+		type: 'point',
+		def: [0,6],
+		att: {
+			name: 'Condoning Class ⟶ rich keep <br>workers at a distance',
 			label: {
 				anchorX: 'middle',
-				offset: [0, 130]
-			}
+				anchorY: 'top',
+				color: 'black',
+				cssStyle: 'text-align:center',
+				offset: [-2, 10]
+			},
+			opacity: 0
 		}
 	},
 	{
 		type: 'polygon',
 		def: [[-6.5,4],[-6.5,-6.5],[6.5,-6.5],[6.5,4]],
+	},
+	{
+		type: 'polygon',
+		def: [[-2,-3],[2,-3],[2,-5],[-2,-5]],
 		att: {
-			name: 'Condoning Class ⟶ rich keep workers at a distance',
+			name: 'AIDA',
 			withLabel: true,
 			label: {
 				anchorX: 'middle',
-				offset: [0, 100]
+				anchorY: 'middle',
+				color: 'black'
 			}
 		}
 	}
 ]
 ```
+--- 
+## Day 2
+```tx
+| Bonsai | [Persona] | [D.S] | [Image, FoS] | <br> |
+| ^^ | sentimental | folding | tie, picture | <br><br> |\
+| | want to keep <br>material things | doubt | school, bill | <br><br><br> |\
+| | parent/mother | reassurance | seashell ... | HYPERBOLIC<br><br> |\
+| | | conversation | ... | HYPERBOLIC<br> |\
+| | | desperation $\ne$affirmation | hand's size | METAPHOR, HYPERBOLIC |\
+| | | love | |\
+| | | relationship ...| |
+| :---: | :---: | :---: | :---: |
+| <u>Metonym</u> | [Substituted Reality] || [Connection D.S etc] ||\
+| **seashell** | **Patriarchy** || mother secluded ||\
+| ↑ | ↑ || ↑ ||\
+| <sub>rupture point</sub> | <sub>ideology</sub> || interpretation ||\
+| |  || mothers scale everything down ||
+[Material]
+```
+
+(Other Info)
+- Bonsai: Artificial utilization
+- Origami: Japanese paper art (folding images)
+- Anik-anik culture
+- Filipino culture tooth coming out
+- Edith Tiempo's life
+
+(Methodology)
+- Closed Reading
+	- Find things hidden background
+- Question Details/Stand out details
+- Rupture/Connection to closed reading

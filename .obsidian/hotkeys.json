@@ -298,5 +298,13 @@
       ],
       "key": "P"
     }
+  ],
+  "latex-math:eval-latex-expression": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "B"
+    }
   ]
 }
