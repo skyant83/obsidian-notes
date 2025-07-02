@@ -18,3 +18,34 @@ Other Details/New Findings
 (Albert Spalding)
 - Standdren (1920's)
 - LPD (phonograph)
+
+```graph
+bounds: [-9,9,9,-9]
+axis: true
+elements: [
+	{
+		type: 'polygon',
+		def: [[-7,-7],[-7,7],[7,7],[7,-7]],
+		att: {
+			name: 'Colonial System',
+			withLabel: true,
+			label: {
+				anchorX: 'middle',
+				offset: [0, 130]
+			}
+		}
+	},
+	{
+		type: 'polygon',
+		def: [[-6.5,4],[-6.5,-6.5],[6.5,-6.5],[6.5,4]],
+		att: {
+			name: 'Condoning Class ⟶ rich keep workers at a distance',
+			withLabel: true,
+			label: {
+				anchorX: 'middle',
+				offset: [0, 100]
+			}
+		}
+	}
+]
+```
