@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"5218186df8e2e276","x":180,"y":-140,"width":340,"height":120,"type":"text","text":"\\> Crop rotation\n\\> Forestry Schools\n\\> Laws on forest management\n\\> Cataloguing"},
+		{"id":"887969dd92b6583b","x":640,"y":-143,"width":250,"height":127,"type":"text","text":"Collection\nAntiquarianism\nInterest in Natural History"},
+		{"id":"9bd87cd8f771f728","x":-200,"y":-123,"width":245,"height":87,"type":"text","text":"Concern for environmental sustainability"}
+	],
+	"edges":[
+		{"id":"a0d383fbbd39ef29","fromNode":"9bd87cd8f771f728","fromSide":"right","toNode":"5218186df8e2e276","toSide":"left"},
+		{"id":"5bdd5a33649b7c47","fromNode":"5218186df8e2e276","fromSide":"right","toNode":"887969dd92b6583b","toSide":"left"}
+	]
+}

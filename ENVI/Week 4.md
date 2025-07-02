@@ -24,3 +24,34 @@ The main advocacies of the Sierra Club when it first started include:
 - **Preservation of Large Parks:** For several decades after its founding in 1892 by John Muir, the Sierra Club was the **principal advocate for the preservation of large parks in the US**.
 - **Setting Aside Wilderness:** It initiated and led efforts to **set aside millions of acres of land specifically for wilderness**. This was considered an unprecedented effort that ultimately led to the **Wilderness Act of 1964**.
 - **Opposition to Damming Natural Areas:** The organization successfully campaigned against the construction of dams in significant natural sites, specifically **opposing the damming of the Grand Canyon and a dam in Dinosaur National Monument**. This demonstrated a commitment to **wilderness preservation over economic development**. David Brower, a former leader, expressed allegiance to "wilderness for itself alone".
+--- 
+## Day 2
+
+### Early Environmentalism
+#### Historical Perceptions of Nature and the Environment
+1. Powerful, animate world that can bestow or withhold resources
+2. Potent force that humans ought to contemplate and learn from
+3. Untamed nature as a threat to survival, livelihoods, and salvation, and thus something to be dominated
+#### Medieval Period (Europe)
+- Earth-centric and deterministic
+- Man has God-given dominion over nature for "sustenance"
+- The tame >> the unknown and uninhabited
+### Renaissance Environmentalism
+#### Age of Reason, Enlightenment, and Capitalism
+> "Why should I insist on the great plenty of Waters brought from the most remote and hidden Places, and employed to so many different and useful Purposes? Upon Trophies, Tabernacles, sacred Edifices, Churches and the like, adapted to divine Worship and the Service of Posterity? Or lastly, why should I mention the Rocks cut, Mountains bored through, Vallies filled up, Lakes confined, Marshes discharged into the Sea, Ships built, Rivers turned, their Mouths cleared, Bridges laid over them, Harbours formed, not only serving to Men's immediate Conveniences, but also opening them a way to all Parts of the World"
+#### Forestry and Natural History
+![](Untitled.png)
+#### Gardens of Eden
+- Provided a foil to wild landscapes
+- Showed man's mastery of nature and ability to collect exotic pieces
+#### Romanticizing Nature
+...
+#### Beach, Beauty, and Beer: Nature Tourism
+- Rural Tourist Industry
+- Fear of urbanizing the rural
+- A "proper" way to appreciate nature
+- Making the experience comfortable
+- The paradox of appreciation and exploitation
+#### The Adorable, The Abominable, and Hoomans
+- The Society of Prevention of Cruelty to Animals (SPCA), London 1820s
+
