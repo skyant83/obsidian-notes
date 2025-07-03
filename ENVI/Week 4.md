@@ -107,3 +107,15 @@ The main advocacies of the Sierra Club when it first started include:
 In the Global South, it is led mostly by people instead of NGOs, but the motive behind campaigns vary.
 
 It started mostly with government-imposed conservation and preservation, but over time government and organization found themselves in either end of the spectrum
+
+#### Reasons for participating in Activism
+1. Biographical Availability
+	- Refers to the absence of personal constraints that might make it more difficult or risky for individuals to participate in activism
+	- Absence of personal constrains
+	- ex. --> full-time employment, family responsibilities, or other commitments that require significant time and resources
+2. Structural Availability
+	- Refers to the extent to which an individual's social roles and obligations allow them the time and the freedom to participate in social movements or activism
+	- Position within social networks and their access to information about mobilization opportunities
+3. Political Engagement
+	- Encompasses an individual's interest, knowledge and perceived efficacy in the political sphere
+	- ex. --> individuals with strong political engagement may be more likely to seek  out opportunities to express their views through activism
