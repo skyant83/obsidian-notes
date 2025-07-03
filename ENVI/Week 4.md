@@ -54,4 +54,56 @@ The main advocacies of the Sierra Club when it first started include:
 - The paradox of appreciation and exploitation
 #### The Adorable, The Abominable, and Hoomans
 - The Society of Prevention of Cruelty to Animals (SPCA), London 1820s
+### Urbanization and Industrialization
+#### Industrial Revolution
+- General increase in consumption of fossil fuels
+- Results in the general increase of Carbon Dioxide
+#### Urbanization
+- Economic activity concentrated in high population density locations --> capitalism cutting costs of production in rural areas
+- Start of a wave of forest loss
+#### Conservation
+- "Planned Management"
+- **Gifford Pinchot** --> one of the earliest conservationists
+- Appointed as head of the Division of Forestry in US (1898)
+- Advocated scientific management, sustainable yield, full utilization, fire prevention, reforestation
 
+> *"When there's smook, there is brass"* --> pollution $=$ economic progress
+
+#### Reintegration of Nature in the Urban 
+- Urban Parks were more easily established because they did not threaten the status quo
+- <u>**Return to the country**</u>: widely-spread suburban homes with gardens, separated by ample wood
+- Industrialization brought people to the cities but also provided both the means and the motive to travel from the city to the countryside
+- An increase in perceived manliness by being capable in nature
+	- Boy Scouts (1907) England
+	- Characters like Tarzan
+	- "Civilization" --> love for nature
+	- A "civilized way" of loving nature
+#### Preservation
+> *"Keep close to nature's heart
+> And break clear away,
+> Once in a while,
+> And climb a mountain
+> Or spend a week in the woods.
+> Wash your spirit clean"*
+- John Muir (1838-1914) --> "John of the Mountains", "Father of the National Parks"
+- Advocate of <mark class="hltr-yellow">preservation</mark>
+	- Maintain the presently "wild" condition, valuing nature for its transcendental, spiritual values
+	- First President of the Sierra Club
+	- Extended National Integrated Protected Areas System (ENIPAS) (RA 11038, s2018)
+		- **effective administration of this area is possible only through cooperation among national government, local government and concerned private organizations ~={PastelGreen}(and concerned non-government organizations and local communities)=~**
+		- ~={PastelGreen}The System shall recognize conservation areas and management regimes being implemented by local government units, local communities, and indigenous people=~
+		- ~={PastelGreen}As part of heritage preservation and pursuant to the need to conserve biologically significant areas, the territories and areas occupied and conserved for and by IPs and communities shall be recognized, respected, developed, and promoted.  =~
+		- ~={PastelGreen}The ICCs and IPs shall have the responsibility to govern, maintain, develop, protect, and conserve such areas, in accordance with their IKSP and customary law, with full and effective assistance from the NCIP, DENR, and other concerned government agencies...=~
+
+> *"In the end, nature-loving was not enough to curtail degradation of natural resources for economic progress—it focused on what was beautiful, spiritual, recreational, and turned almost a blind eye to what was degraded to achieve the comforts of the Industrial Age"*
+
+### Conservation and Preservation
+
+| **Conservation**                                                    | **Preservation**                                    |
+| ------------------------------------------------------------------- | --------------------------------------------------- |
+| Advocate for Maximum but sustainable use of environmental resources | Advocate for limited use of environmental resources |
+| "Use as much as we can without collapsing the environment"          | "Use a little as possible form the environment"     |
+
+In the Global South, it is led mostly by people instead of NGOs, but the motive behind campaigns vary.
+
+It started mostly with government-imposed conservation and preservation, but over time government and organization found themselves in either end of the spectrum
