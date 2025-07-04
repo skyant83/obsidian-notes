@@ -5,7 +5,7 @@
 - Sustain the agriculture-based livelihood of small and marginal farmers, women, tennants, and agriculture ... 
 - Zero Budget National Farming (ZBNF)
 	- ... 
------
+
 ### Green Belt Movement
 - Nairobi, Kenya (1977)
 - Empower women from Kenya who are deeply affected ... 
@@ -57,3 +57,57 @@
 ### Intersectionality
 - Recognizing the interconnectedness between social systems of oppression and systems of environmental exploitation
 - Has allowed for environmentalism to become more popular, rallying already existing social movements behind environmental justice
+---
+### Challenges Faced by the Environmental Movement
+#### Political Challenges
+##### Governments often side with large corporations
+- Economic growth and tax revenue over environment
+- Permits... 
+- ...
+##### Indigenous groups and nature are often sacrificed for profit
+- Corporations take Indigenous lands for mining damns, etc.
+- Indigenous protests and rights are ...
+- ...
+##### Weak or inconsistent environmental laws
+- Laws are often incomplete or poorly enforced
+- Penalties for violations are low
+- Leadership...
+#### Social Challenges
+##### Power Inequality
+- Decision making is dominated by powerful institutions
+	- Governments, corporations and economic elites
+- Marginalized ...
+	- ...
+- ...
+##### Systemic Barriers
+- Lack of time, resources, access, and safety nets prevents participation 
+- Environmental policies ...
+- ...
+##### Lack of Awareness and Disinformation
+- Many remain unaware due to limited education and biased media narratives
+- ...
+
+#### Thematic Challenges
+##### Dominion over the environment as humans
+> *"Using nature as a means to make things pretty"*
+
+- Anthropocentricism
+	- The belief that humans are the central or most important...
+- ...
+	- ...
+##### Radicalization
+- People make use of more extreme measures in order to advocate for environmentalism
+	- ~={green}Repeated Neglect and Injustice=~
+	- ~={green}Ineffectiveness of Institutional Channels=~
+	- ~={green}Rising Awareness in Systemic Roots=~
+#### APECO Issue in Aurora
+- APECO was approved to attract foreign and domestic investment, to boost economic growth in the area, and to create job opportunities. But this all came to the **cost of indigenous groups losing their land**, all without approval of their local government and population.
+#### Africa --> Struggle for Environmental Justice
+- Resulted from entities seeing the continent as a sacrificial zone
+- Lost $~\$ 195$ Billion worth of capital annually...
+#### Illegal Logging/Land Conversion
+- Seen only as **means to make money**
+- 90% of the original rainforest is now gone. **Illegal logging, mining and quarrying have taken a toll**
+- Without tree roots for stability and the vast canopies of the forest to absorb the heavy rains ...
+#### Successfulness of EJA
+- Each issues was successful in terms of raising **<u>awareness, empowering</u>**, raising advocacy
